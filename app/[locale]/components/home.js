@@ -25,7 +25,7 @@ export default function Home(props) {
     );
     bookPool = [];
     changeMainHTML();
-    // require("bootstrap/dist/js/bootstrap.bundle.min.js");
+
     // handleBookRequest(LanDic[locale].language);
   }, [LanDic[locale].language]);
 
@@ -61,7 +61,7 @@ export default function Home(props) {
     if (bookPool.length < 150) {
       let language = { language: lan };
       let result = "";
-      let response = await fetch("http://localhost:5000/books", {
+      let response = await fetch("/books" || "http://localhost:5000/books", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -71,7 +71,7 @@ export default function Home(props) {
 
       result = await response.json();
       while (result.requestAgain === true) {
-        response = await fetch("http://localhost:5000/books", {
+        response = await fetch("/books" || "http://localhost:5000/books", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

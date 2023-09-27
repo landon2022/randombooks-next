@@ -5,13 +5,14 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import { useLocale } from "next-intl";
 import { notFound } from "next/navigation";
+import LanDic from "./LanDic";
 
-export const metadata = {
-  title:
-    "Random Books | Random book recommendations. A place to break the information cocoon, find hidden gem and enjoy reading.",
-  description:
-    "Discover a wide selection of random books on our website. Explore various genres, authors, and topics. Find your next captivating read and dive into the world of literature. Stay updated with our regularly updated collection of books. Start your reading journey today. Enjoy!",
-};
+export async function generateMetadata({ params: { locale } }) {
+  return {
+    title: LanDic[locale].html_title,
+    description: LanDic[locale].html_mata_description,
+  };
+}
 
 const locales = ["en", "fr", "es", "zh_tw", "zh_cn", "pl", "de", "pt", "ja"];
 
@@ -72,6 +73,7 @@ export default function LocaleLayout({ children, params: { locale } }) {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
+
         <script
           src="https://kit.fontawesome.com/86508f9c8b.js"
           crossOrigin="anonymous"
