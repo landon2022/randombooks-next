@@ -61,7 +61,7 @@ export default function Home(props) {
     if (bookPool.length < 150) {
       let language = { language: lan };
       let result = "";
-      let response = await fetch("http://localhost:3000/api/books", {
+      let response = await fetch("/api/books", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -71,7 +71,7 @@ export default function Home(props) {
 
       result = await response.json();
       while (result.requestAgain === true) {
-        response = await fetch("http://localhost:3000/api/books", {
+        response = await fetch("/api/books", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

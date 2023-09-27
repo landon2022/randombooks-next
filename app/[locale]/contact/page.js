@@ -46,7 +46,7 @@ export default function Contact() {
       message: data.message,
     };
     console.log(newContact);
-    let response = await fetch("http://localhost:3000/api/contact", {
+    let response = await fetch("/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
