@@ -46,14 +46,15 @@ export default function Contact() {
       message: data.message,
     };
     console.log(newContact);
-    let response = await fetch("/contact" || "http://localhost:5000/contact", {
+    let response = await fetch("http://localhost:3000/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(newContact),
     });
-    if (response.status === 404) {
+    console.log(response);
+    if (response.status === 500) {
       MySwal.fire("Oops!", `${LanDic[locale].server_error}`, "error").then(
         () => {
           setButton(
