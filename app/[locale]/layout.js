@@ -68,8 +68,8 @@ export default function LocaleLayout({ children, params: { locale } }) {
         />
         <link
           rel="alternate"
-          hrefLang="jp"
-          href="https://www.randombooks.xyz/jp"
+          hrefLang="ja"
+          href="https://www.randombooks.xyz/ja"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
