@@ -25,7 +25,7 @@ export default function LocaleLayout({ children, params: { locale } }) {
     <html lang={locale}>
       <head>
         <meta charSet="utf-8" />
-        <link rel="shortcut icon" href="icon.gif" />
+        <link rel="shortcut icon" href="flogo.gif" />
         <link
           rel="alternate"
           hrefLang="en"
