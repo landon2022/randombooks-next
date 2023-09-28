@@ -1,6 +1,8 @@
 // import { NextResponse } from "next/server.js";
 const nodemailer = require("nodemailer");
 const { NextResponse } = require("next/server.js");
+const sgMail = require("@sendgrid/mail");
+
 export async function POST(request) {
   console.log("contact test point");
 
@@ -10,6 +12,31 @@ export async function POST(request) {
   const userEmailAddress = data.email;
   const userMessage = data.message;
   console.log(data);
+
+  // sgMail.setApiKey(process.env.SENDGRID_API_KEY);
+  // const msg = {
+  //   // to: 'test@example.com', // Change to your recipient
+  //   // from: 'test@example.com', // Change to your verified sender
+  //   // subject: 'Sending with SendGrid is Fun',
+  //   // text: 'and easy to do anywhere, even with Node.js',
+  //   // html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+  //   from: "2909852565C@gmail.com", // sender address
+  //   to: "2909852565C@gmail.com", // list of receivers
+  //   subject: "Random Books User Feedback", // Subject line
+  //   // eslint-disable-next-line max-len
+  //   text: `${userName}\n ${userEmailAddress}\n ${userMessage}`, // plain text body
+  //   // html: "<b>Hello world?</b>", // html bo
+  // };
+  // sgMail
+  //   .send(msg)
+  //   .then(() => {
+  //     console.log("Email sent");
+  //     return NextResponse.json({ status: "success" });
+  //   })
+  //   .catch((error) => {
+  //     console.error(error);
+  //     return NextResponse.json({ status: "error", errorobj: error });
+  //   });
 
   const transporter = nodemailer.createTransport({
     host: "smtp.office365.com",
@@ -53,9 +80,9 @@ export async function POST(request) {
     console.log(error);
     return NextResponse.json({ status: "error", errorobj: error });
   });
-  //   try {
-  //     await main();
-  //   } catch (err) {
-  //     return NextResponse.json({ status: "error", errorobj: err });
-  //   }
+  try {
+    await main();
+  } catch (err) {
+    return NextResponse.json({ status: "error", errorobj: err });
+  }
 }

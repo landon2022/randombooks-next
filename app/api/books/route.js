@@ -1,44 +1,13 @@
 /* eslint-disable */
 import lanDic from "./lanDic.js";
 import { NextResponse } from "next/server.js";
-const { getWordsList } = require("most-common-words-by-language");
-// const fs = require("fs");
-// import { getWordsList } from "most-common-words-by-language";
-
-// // const { getWordsList } = require("most-common-words-by-language");
-// // eslint-disable-next-line require-jsdoc
-
-// async function getWordsListFromTxtFile(searchInput) {
-//   // Get the path to the txt file.
-//   const filePath = `./resources/${searchInput}.txt`;
-
-//   // Check if the txt file exists.
-//   if (!fs.existsSync(filePath)) {
-//     throw new Error(`The txt file ${filePath} does not exist.`);
-//   }
-
-//   // Load the txt file into a string.
-//   const fileContent = await fs.promises.readFile(filePath, "utf8");
-
-//   // Split the txt file into a list of strings.
-//   const wordsList = fileContent.split(/\r?\n/);
-
-//   // Return the list of strings.
-//   return wordsList;
-// }
 
 function generateRandomWords(lan) {
   // based on the input language to create random words.
   console.log("randomword test point");
-  // let spanish = getWordsList("spanish");
-  // console.log(spanish);
-  let wordsList = [];
-  if (lan === "繁體中文") {
-    wordsList = lanDic[lan].slice();
-  } else {
-    wordsList = getWordsList(lan.toLowerCase());
-    // wordsList = lanDic["English"].slice();
-  }
+
+  let wordsList = lanDic[lan.toLowerCase()].slice();
+
   console.log(wordsList);
   const maxWords = 3;
 
