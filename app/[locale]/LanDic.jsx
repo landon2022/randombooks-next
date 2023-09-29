@@ -425,8 +425,8 @@ const LanDic = {
 </ul>
 </section>`,
     about_content: `<section>
-<h3>Witamy w Random Book Recommendations!</h3>
-<p>W Random Book Recommendations jesteśmy pasjonatami książek i uwielbiamy dzielić się naszymi ulubionymi lekturami z innymi miłośnikami książek. Niezależnie od tego, czy jesteś zapalonym czytelnikiem, czy dopiero zaczynasz swoją przygodę z czytaniem, jesteśmy tutaj, aby pomóc Ci odkryć ekscytujące książki w różnych gatunkach.</p>
+<h3>Witamy w Rekomendacje losowych książek!</h3>
+<p>W Rekomendacje losowych książek jesteśmy pasjonatami książek i uwielbiamy dzielić się naszymi ulubionymi lekturami z innymi miłośnikami książek. Niezależnie od tego, czy jesteś zapalonym czytelnikiem, czy dopiero zaczynasz swoją przygodę z czytaniem, jesteśmy tutaj, aby pomóc Ci odkryć ekscytujące książki w różnych gatunkach.</p>
 </section>
 <section>
 <h3>Nasza misja</h3>
@@ -440,10 +440,10 @@ const LanDic = {
   de: {
     language: "German",
     html_title:
-      "Random Books | Zufällige Buchempfehlungen. Ein Ort, um den Informationskokon zu durchbrechen, versteckte Schätze zu finden und das Lesen zu genießen",
+      "Zufällige Bücher | Zufällige Buchempfehlungen. Ein Ort, um den Informationskokon zu durchbrechen, versteckte Schätze zu finden und das Lesen zu genießen",
     html_mata_description:
       "Entdecken Sie auf unserer Website eine große Auswahl an zufälligen Büchern. Stöbern Sie in verschiedenen Genres, Autoren und Themen. Finden Sie Ihre nächste fesselnde Lektüre und tauchen Sie ein in die Welt der Literatur. Bleiben Sie auf dem Laufenden mit unserer regelmäßig aktualisierten Sammlung von Büchern. Beginnen Sie Ihre Lesegewohnheit noch heute. Viel Spaß!",
-    brand: "Random Books",
+    brand: "Zufällige Bücher",
     home: "Startseite",
     FAQ: "FAQs",
     contact: "Kontakt",
@@ -510,11 +510,11 @@ const LanDic = {
 <p>Dies liegt daran, dass einige Sprachen historisch homolog sind, wie die lateinische und die chinesische Sprachfamilie. Einige der Wörter in ihren Sprachen können sich sehr ähnlich sein.</p>
 </li>
 <li>
-<h3>Was ist Random Book Recommendations?</h3>
-<p>Random Book Recommendations ist eine Plattform, die zufällige Buchempfehlungen generiert, um Ihnen dabei zu helfen, neue und spannende Lektüren in verschiedenen Genres zu entdecken.</p>
+<h3>Was ist Zufällige Buchempfehlungen?</h3>
+<p>Zufällige Buchempfehlungen ist eine Plattform, die zufällige Buchempfehlungen generiert, um Ihnen dabei zu helfen, neue und spannende Lektüren in verschiedenen Genres zu entdecken.</p>
 </li>
 <li>
-<h3>Wie funktioniert Random Book Recommendations?</h3>
+<h3>Wie funktioniert Zufällige Buchempfehlungen?</h3>
 <p>Unsere Plattform verwendet einen Algorithmus, der zufällig Bücher aus unserer Sammlung auswählt und kurze Beschreibungen zusammen mit relevanten Details liefert, um Leser zu überraschen und zu erfreuen.</p>
 </li>
 </ul>
@@ -548,9 +548,9 @@ const LanDic = {
 </ul>
 </section>`,
     about_content: `<section>
-<h3>Willkommen bei Random Book Recommendations!</h3>
+<h3>Willkommen bei Zufällige Buchempfehlungen!</h3>
 <p>
-Bei Random Book Recommendations sind wir leidenschaftliche Bücherfans und lieben es, unsere Lieblingslektüren mit anderen Bücherwürmern zu teilen. Egal, ob Sie ein begeisterter Leser sind oder gerade erst mit Ihrer Leserise beginnen: Wir sind hier, um Ihnen dabei zu helfen, spannende Bücher in verschiedenen Genres zu entdecken.
+Bei Zufällige Buchempfehlungen sind wir leidenschaftliche Bücherfans und lieben es, unsere Lieblingslektüren mit anderen Bücherwürmern zu teilen. Egal, ob Sie ein begeisterter Leser sind oder gerade erst mit Ihrer Leserise beginnen: Wir sind hier, um Ihnen dabei zu helfen, spannende Bücher in verschiedenen Genres zu entdecken.
 </p>
 </section>
 <section>
