@@ -75,6 +75,12 @@ img:hover {
   padding: 1px 3px !important;
 }
 
+.scrollable-menu {
+  height: auto;
+  max-height: 500px;
+  overflow-x: hidden;
+}
+
 .nav-container {
   padding: 0 !important;
 }
@@ -194,6 +200,9 @@ img:hover {
 }
 .copyright {
   text-align: center;
+}
+.copyright p {
+  margin-bottom: 0;
 }
 
 .nav-item-category {

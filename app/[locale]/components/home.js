@@ -24,7 +24,7 @@ export default function Home(props) {
       </button>
     );
     bookPool = [];
-    changeMainHTML();
+    // changeMainHTML();
 
     // handleBookRequest(LanDic[locale].language);
   }, [LanDic[locale].language]);

@@ -118,7 +118,7 @@ export default function Layout() {
                   <i className="bi bi-globe"></i>
                   {LanDic[locale].native_language}
                 </a>
-                <ul className="dropdown-menu dropdown-menu-end ">
+                <ul className="dropdown-menu dropdown-menu-end scrollable-menu">
                   <li>
                     <Link className="dropdown-item" href="/" locale="en">
                       <i className="flag-united-kingdom flag" />
