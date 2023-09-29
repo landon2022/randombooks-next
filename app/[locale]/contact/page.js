@@ -7,6 +7,12 @@ import { useState } from "react";
 import LanDic from "../LanDic";
 import { useLocale } from "next-intl";
 
+export async function generateMetadata({ params: { locale } }) {
+  return {
+    title: LanDic[locale].contact,
+  };
+}
+
 export default function Contact() {
   let locale = useLocale();
   const MySwal = withReactContent(Swal);

@@ -1,6 +1,13 @@
 import LanDic from "../LanDic";
 
 import { useLocale } from "next-intl";
+
+export async function generateMetadata({ params: { locale } }) {
+  return {
+    title: LanDic[locale].about,
+  };
+}
+
 export default function About() {
   let locale = useLocale();
   return (
