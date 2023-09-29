@@ -3,7 +3,6 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "../globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import { useLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import LanDic from "./LanDic";
 import Script from "next/script";
