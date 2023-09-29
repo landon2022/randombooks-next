@@ -2,11 +2,9 @@
 import Link from "next-intl/link";
 import LanDic from "../LanDic";
 import { useLocale } from "next-intl";
-import { useState } from "react";
 
-export default function Layout(props) {
+export default function Layout() {
   let locale = useLocale();
-  const [language, setLanguage] = useState(LanDic[locale].native_language);
 
   function setActive(e) {
     var element = document.querySelector(".active");
@@ -118,16 +116,11 @@ export default function Layout(props) {
                   aria-expanded="false"
                 >
                   <i className="bi bi-globe"></i>
-                  {language}
+                  {LanDic[locale].native_language}
                 </a>
                 <ul className="dropdown-menu dropdown-menu-end ">
                   <li>
-                    <Link
-                      className="dropdown-item"
-                      href="/"
-                      locale="en"
-                      onClick={() => setLanguage("English")}
-                    >
+                    <Link className="dropdown-item" href="/" locale="en">
                       <i className="flag-united-kingdom flag" />
                       English
                     </Link>
@@ -137,89 +130,49 @@ export default function Layout(props) {
                   </li>
 
                   <li>
-                    <Link
-                      className="dropdown-item"
-                      href="/"
-                      locale="fr"
-                      onClick={() => setLanguage("Français")}
-                    >
+                    <Link className="dropdown-item" href="/" locale="fr">
                       <i className="flag-france flag" />
                       Français
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item"
-                      href="/"
-                      locale="es"
-                      onClick={() => setLanguage("Español")}
-                    >
+                    <Link className="dropdown-item" href="/" locale="es">
                       <i className="flag-spain flag" />
                       Español
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item"
-                      href="/"
-                      locale="zh_tw"
-                      onClick={() => setLanguage("繁體中文")}
-                    >
+                    <Link className="dropdown-item" href="/" locale="zh_tw">
                       <i className="flag-spain flag" />
                       繁體中文
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item"
-                      href="/"
-                      locale="zh_cn"
-                      onClick={() => setLanguage("简体中文")}
-                    >
+                    <Link className="dropdown-item" href="/" locale="zh_cn">
                       <i className="flag-spain flag" />
                       简体中文
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item"
-                      href="/"
-                      locale="pl"
-                      onClick={() => setLanguage("Polski")}
-                    >
+                    <Link className="dropdown-item" href="/" locale="pl">
                       <i className="flag-spain flag" />
                       Polski
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item"
-                      href="/"
-                      locale="de"
-                      onClick={() => setLanguage("Deutsch")}
-                    >
+                    <Link className="dropdown-item" href="/" locale="de">
                       <i className="flag-spain flag" />
                       Deutsch
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item"
-                      href="/"
-                      locale="pt"
-                      onClick={() => setLanguage("Português")}
-                    >
+                    <Link className="dropdown-item" href="/" locale="pt">
                       <i className="flag-spain flag" />
                       Português
                     </Link>
                   </li>
                   <li>
-                    <Link
-                      className="dropdown-item"
-                      href="/"
-                      locale="ja"
-                      onClick={() => setLanguage("日本語")}
-                    >
+                    <Link className="dropdown-item" href="/" locale="ja">
                       <i className="flag-spain flag" />
                       日本語
                     </Link>
