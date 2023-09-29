@@ -70,6 +70,10 @@ export async function POST(request) {
       }
     }
     if (result.items !== undefined) {
+      // let data = result.items.map((item) => ({
+      //   volumeInfo: item.volumeInfo,
+      //   searchInfo: item.searchInfo,
+      // }));
       await client
         .db("randombooks")
         .collection(language)

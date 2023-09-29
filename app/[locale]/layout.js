@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import { useLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import LanDic from "./LanDic";
+import Script from "next/script";
 
 export async function generateMetadata({ params: { locale } }) {
   return {
@@ -24,6 +25,11 @@ export default function LocaleLayout({ children, params: { locale } }) {
   return (
     <html lang={locale}>
       <head>
+        <Script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_KEY}`}
+        />
+        <Script>{`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());gtag('config', '${process.env.GA_KEY}');`}</Script>
         <meta charSet="utf-8" />
         <link rel="shortcut icon" href="flogo.gif" />
         <link
@@ -84,6 +90,7 @@ export default function LocaleLayout({ children, params: { locale } }) {
           crossOrigin="anonymous"
         ></script>
       </head>
+
       <body>
         <Header />
         {children}
