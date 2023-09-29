@@ -6,7 +6,7 @@ import { useState } from "react";
 
 export default function Layout(props) {
   let locale = useLocale();
-  const [language, setLanguage] = useState(LanDic[locale].language);
+  const [language, setLanguage] = useState(LanDic[locale].native_language);
 
   function setActive(e) {
     var element = document.querySelector(".active");

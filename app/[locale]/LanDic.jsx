@@ -1,6 +1,7 @@
 const LanDic = {
   en: {
     language: "English",
+    native_language: "English",
     html_title:
       "Random Books | Random book recommendations. A place to break the information cocoon, find hidden gem and enjoy reading",
     html_mata_description:
@@ -45,6 +46,7 @@ const LanDic = {
   },
   fr: {
     language: "French",
+    native_language: "Français",
     html_title:
       "Livres Aléatoires | Recommandations de livres aléatoires. Un endroit pour rompre le cocon d'information, découvrir des pépites cachées et apprécier la lecture.",
     html_mata_description:
@@ -90,6 +92,7 @@ const LanDic = {
   },
   es: {
     language: "Spanish",
+    native_language: "Español",
     html_title:
       "Libros Aleatorios | Recomendaciones de libros aleatorios. Un lugar para romper el capullo de información, encontrar joyas ocultas y disfrutar de la lectura.",
     html_mata_description:
@@ -139,6 +142,7 @@ const LanDic = {
   },
   zh_tw: {
     language: "繁體中文",
+    native_language: "繁體中文",
     html_title:
       "隨機書籍 | 隨機書籍推薦。打破信息繭房，尋找隱藏寶石並享受閱讀的地方。",
     html_mata_description:
@@ -184,6 +188,7 @@ const LanDic = {
   },
   zh_cn: {
     language: "Chinese",
+    native_language: "简体中文",
     html_title:
       "随机书籍 | 随机书籍推荐。打破信息茧房，发现隐藏的宝藏，享受阅读的乐趣。",
     html_mata_description:
@@ -318,6 +323,7 @@ const LanDic = {
   },
   pl: {
     language: "Polish",
+    native_language: "Polski",
     html_title:
       "Losowe Książki | Rekomendacje losowych książek. Miejsce, w którym możesz przełamać kokon informacyjny, znaleźć ukryte perełki i cieszyć się czytaniem",
     html_mata_description:
@@ -439,6 +445,7 @@ const LanDic = {
   },
   de: {
     language: "German",
+    native_language: "Deutsch",
     html_title:
       "Zufällige Bücher | Zufällige Buchempfehlungen. Ein Ort, um den Informationskokon zu durchbrechen, versteckte Schätze zu finden und das Lesen zu genießen",
     html_mata_description:
@@ -568,6 +575,7 @@ Es ist ganz einfach! Klicken Sie einfach auf die Schaltfläche "Überrasch mich"
   },
   pt: {
     language: "Portuguese",
+    native_language: "Português",
     html_title:
       "Livros aleatórios | Recomendações de livros aleatórias. Um lugar para romper o casulo de informações, encontrar joias escondidas e desfrutar da leitura",
     html_mata_description:
@@ -688,6 +696,7 @@ Nossa missão é fornecer a você uma experiência única de recomendação de l
   },
   ja: {
     language: "Japanese",
+    native_language: "日本語",
     html_title:
       "ランダムブックス | ランダムな書籍の推薦。インフォメーションコクーンを破り、隠れた宝物を探し、読書を楽しむための場所",
     html_mata_description:
