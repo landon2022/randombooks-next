@@ -5,7 +5,7 @@ const LanDic = {
     html_title:
       "Random Books | Random book recommendations. A place to break the information cocoon, find hidden gem and enjoy reading",
     html_mata_description:
-      "Discover a wide selection of random books on our website. Explore various genres, authors, and topics. Find your next captivating read and dive into the world of literature. Stay updated with our regularly updated collection of books. Start your reading journey today. Enjoy!",
+      "Discover a wide selection of random books on our website. Explore various genres, authors, and topics. Find your next captivating read and dive into the world of literature. Stay updated with our regularly updated collection of books. Start your random book journey today. Enjoy!",
     brand: "Random Books",
     home: "Home",
     FAQ: "FAQs",

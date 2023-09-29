@@ -24,24 +24,9 @@ export default function Home(props) {
       </button>
     );
     bookPool = [];
-    // changeMainHTML();
 
-    // handleBookRequest(LanDic[locale].language);
+    handleBookRequest(LanDic[locale].language);
   }, [LanDic[locale].language]);
-
-  function changeMainHTML() {
-    const document = window.document;
-
-    const titleElement = document.querySelector("title");
-    titleElement.textContent = `${LanDic[locale].html_title}`;
-
-    const metaElement = document.querySelector('meta[name="description"]');
-
-    metaElement.setAttribute(
-      "content",
-      `${LanDic[locale].html_mata_description}`
-    );
-  }
 
   async function handleBookRequest(lan) {
     setButton(
