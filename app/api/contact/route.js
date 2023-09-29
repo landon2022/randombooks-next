@@ -1,7 +1,5 @@
 import { NextResponse } from "next/server.js";
 const nodemailer = require("nodemailer");
-// const { NextResponse } = require("next/server.js");
-// const sgMail = require("@sendgrid/mail");
 
 export async function POST(request) {
   console.log("contact test point");
