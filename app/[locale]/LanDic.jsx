@@ -52,7 +52,7 @@ const LanDic = {
     language: "French",
     native_language: "Français",
     html_title:
-      "Livres Aléatoires | Recommandations de livres aléatoires. Un endroit pour rompre le cocon d'information, découvrir des pépites cachées et apprécier la lecture.",
+      "Livres Aléatoires | Recommendation de livres aléatoires. Un endroit pour rompre le cocon d'information, découvrir des pépites cachées et apprécier la lecture.",
     html_mata_description:
       "Briser le cocon d'information et la barrière de la connaissance grâce à la recommandation de livres aléatoires. Découvrez une large sélection de livres aléatoires sur notre site web. Explorez divers genres, auteurs et sujets. Trouvez votre prochaine lecture captivante et plongez dans le monde de la littérature. Commencez votre voyage de livres aléatoires dès aujourd'hui !",
     brand: "Livres Aléatoires",
@@ -73,7 +73,7 @@ const LanDic = {
     contact_email: "Adresse e-mail",
     contact_message: "Message",
     contact_submit: "Envoyer",
-    home_slogan: `Recommandations de livres aléatoires <br />     Brisez le cocon d'information. Voyez le monde en entier.`,
+    home_slogan: `Recommendation de livres aléatoires <br />     Brisez le cocon d'information. Voyez le monde en entier.`,
     home_slogan_p:
       "Choisissez un livre aléatoire parmi des millions de livres du monde entier(Prise en charge multilingue, choisissez celle que vous préférez.).<br />Ne sais jamais ce qui pourrait apparaître.",
     start_button: "Surprenez-moi",
@@ -94,14 +94,14 @@ const LanDic = {
     faq_content: `<section> <br /> <ul> <li>
     <h3>Pourquoi des livres apparaissent-ils parfois dans une langue autre que celle choisie ?</h3>
     <p>Cela est dû au fait que certaines langues sont historiquement homologues, comme les familles de langues latine et chinoise. Certains mots de leurs langues peuvent être très similaires.</p>
-    </li><li> <h3>Qu'est-ce que les Recommandations de Livres Aléatoires ?</h3> <p> Les Recommandations de Livres Aléatoires sont une plateforme qui génère des recommandations de livres aléatoires pour vous aider à découvrir de nouvelles lectures passionnantes dans différents genres. </p> </li> <li> <h3>Comment fonctionnent les Recommandations de Livres Aléatoires ?</h3> <p> Notre plateforme utilise un algorithme qui sélectionne aléatoirement des livres de notre collection et fournit de brèves descriptions ainsi que des détails pertinents pour surprendre et ravir les lecteurs. </p> </li> </ul> </section> <section> <ul> <li> <h3>Puis-je demander des recommandations de livres spécifiques ?</h3> <p> Non, les recommandations sont générées de manière aléatoire à partir de notre collection. Cependant, nous pensons que l'élément de surprise peut conduire à des découvertes enchantées. </p> </li> <li> <h3>Les recommandations de livres sont-elles personnalisées ?</h3> <p> Non, les recommandations ne sont pas personnalisées. Elles sont générées de manière aléatoire et ne sont pas basées sur les préférences individuelles ou l'historique de lecture précédent. </p> </li> <li> <h3>À quelle fréquence les recommandations de livres sont-elles mises à jour ?</h3> <p> Les recommandations de livres sont régulièrement mises à jour afin de garantir une sélection fraîche et variée pour nos utilisateurs. </p> </li> </ul> </section> <section> <ul> <li> <h3>Puis-je contribuer mes propres recommandations de livres ?</h3> <p>Actuellement, nous n'acceptons pas de contributions directes.</p> </li> <li> <h3>Comment puis-je fournir des commentaires ou signaler des problèmes ?</h3> <p> Nous apprécions vos commentaires. Veuillez nous contacter via le formulaire de contact fourni. Nous sommes reconnaissants pour tout signalement de bug, suggestion ou commentaire général que vous pourriez avoir. </p> </li> </ul> </section>`,
-    about_content: `<section> <h3>Bienvenue sur Les Recommandations de Livres Aléatoires !</h3> <p> Chez Les Recommandations de Livres Aléatoires, nous sommes passionnés par les livres et aimons partager nos lectures préférées avec les amateurs de livres. Que vous soyez un lecteur assidu ou que vous débutiez votre parcours de lecture, nous sommes là pour vous aider à découvrir des livres passionnants dans différents genres. </p> </section> <section> <h3>Notre Mission</h3> <p> Notre mission est de vous offrir une expérience de recommandation de livres unique. Nous croyons que la joie de la lecture réside dans l'exploration de nouveaux genres, la découverte de pépites cachées et le fait de prendre le risque de lire des livres que vous n'auriez peut-être pas envisagés auparavant. C'est pourquoi nous avons créé une plateforme qui génère aléatoirement des recommandations de livres pour vous surprendre et vous ravir. </p> </section> <section> <h3>Comment ça marche</h3> <p> C'est simple ! Il vous suffit de cliquer sur le bouton "Surprise me" et notre algorithme sélectionnera aléatoirement un livre parmi notre vaste collection. Vous recevrez une brève description du livre, ainsi que le nom de l'auteur et d'autres détails pertinents. N'hésitez pas à explorer davantage la recommandation en cliquant sur le lien fourni pour en savoir plus ou effectuer un achat. </p> </section>`,
+    </li><li> <h3>Qu'est-ce que les Recommendation de Livres Aléatoires ?</h3> <p> Les Recommendation de Livres Aléatoires sont une plateforme qui génère des recommandations de livres aléatoires pour vous aider à découvrir de nouvelles lectures passionnantes dans différents genres. </p> </li> <li> <h3>Comment fonctionnent les Recommandations de Livres Aléatoires ?</h3> <p> Notre plateforme utilise un algorithme qui sélectionne aléatoirement des livres de notre collection et fournit de brèves descriptions ainsi que des détails pertinents pour surprendre et ravir les lecteurs. </p> </li> </ul> </section> <section> <ul> <li> <h3>Puis-je demander des recommandations de livres spécifiques ?</h3> <p> Non, les recommandations sont générées de manière aléatoire à partir de notre collection. Cependant, nous pensons que l'élément de surprise peut conduire à des découvertes enchantées. </p> </li> <li> <h3>Les recommandations de livres sont-elles personnalisées ?</h3> <p> Non, les recommandations ne sont pas personnalisées. Elles sont générées de manière aléatoire et ne sont pas basées sur les préférences individuelles ou l'historique de lecture précédent. </p> </li> <li> <h3>À quelle fréquence les recommandations de livres sont-elles mises à jour ?</h3> <p> Les recommandations de livres sont régulièrement mises à jour afin de garantir une sélection fraîche et variée pour nos utilisateurs. </p> </li> </ul> </section> <section> <ul> <li> <h3>Puis-je contribuer mes propres recommandations de livres ?</h3> <p>Actuellement, nous n'acceptons pas de contributions directes.</p> </li> <li> <h3>Comment puis-je fournir des commentaires ou signaler des problèmes ?</h3> <p> Nous apprécions vos commentaires. Veuillez nous contacter via le formulaire de contact fourni. Nous sommes reconnaissants pour tout signalement de bug, suggestion ou commentaire général que vous pourriez avoir. </p> </li> </ul> </section>`,
+    about_content: `<section> <h3>Bienvenue sur Les Recommendation de Livres Aléatoires !</h3> <p> Chez Les Recommendation de Livres Aléatoires, nous sommes passionnés par les livres et aimons partager nos lectures préférées avec les amateurs de livres. Que vous soyez un lecteur assidu ou que vous débutiez votre parcours de lecture, nous sommes là pour vous aider à découvrir des livres passionnants dans différents genres. </p> </section> <section> <h3>Notre Mission</h3> <p> Notre mission est de vous offrir une expérience de recommandation de livres unique. Nous croyons que la joie de la lecture réside dans l'exploration de nouveaux genres, la découverte de pépites cachées et le fait de prendre le risque de lire des livres que vous n'auriez peut-être pas envisagés auparavant. C'est pourquoi nous avons créé une plateforme qui génère aléatoirement des recommandations de livres pour vous surprendre et vous ravir. </p> </section> <section> <h3>Comment ça marche</h3> <p> C'est simple ! Il vous suffit de cliquer sur le bouton "Surprise me" et notre algorithme sélectionnera aléatoirement un livre parmi notre vaste collection. Vous recevrez une brève description du livre, ainsi que le nom de l'auteur et d'autres détails pertinents. N'hésitez pas à explorer davantage la recommandation en cliquant sur le lien fourni pour en savoir plus ou effectuer un achat. </p> </section>`,
   },
   es: {
     language: "Spanish",
     native_language: "Español",
     html_title:
-      "Libros Aleatorios | Recomendaciones de libros aleatorios. Un lugar para romper el capullo de información, encontrar joyas ocultas y disfrutar de la lectura.",
+      "Libros Aleatorios | Recomendacione de libros aleatorios. Un lugar para romper el capullo de información, encontrar joyas ocultas y disfrutar de la lectura.",
     html_mata_description:
       "Romper el capullo de información y la barrera del conocimiento mediante la recomendación aleatoria de libros. Descubre una amplia selección de libros aleatorios en nuestro sitio web. Explora diversos géneros, autores y temas. Encuentra tu próxima lectura cautivadora y sumérgete en el mundo de la literatura. ¡Comienza tu viaje aleatorio de libros hoy mismo!",
     brand: "Libros Aleatorios",
@@ -110,7 +110,7 @@ const LanDic = {
     contact: "Contáctanos",
     about: "Acerca de nosotros",
     subscribe_h5: "Suscríbete para recibir actualizaciones",
-    subscribe_p: "Más recomendaciones aleatorias están por llegar...",
+    subscribe_p: "Más Recomendacione aleatorias están por llegar...",
     subscribe_button: "Suscribirse",
     navigation: "Navegación",
     copyright: "Derechos de autor",
@@ -124,7 +124,7 @@ const LanDic = {
     contact_message: "Mensaje",
     contact_submit: "Enviar",
     home_slogan:
-      "Recomendaciones de libros al azar<br/>Rompe el capullo de información. Ve el mundo en su totalidad.",
+      "Recomendacione de libros al azar<br/>Rompe el capullo de información. Ve el mundo en su totalidad.",
     home_slogan_p:
       "Elige un libro al azar entre millones de libros de todo el mundo(Soporte multilingüe, elija el que prefiera.).<br />Nunca se sabe lo que podría aparecer.",
     start_button: "Sorpréndeme",
@@ -148,7 +148,7 @@ const LanDic = {
     <p>Esto se debe al hecho de que ciertas lenguas son históricamente homólogas, como las familias de lenguas latina y china. Algunas de las palabras de sus idiomas pueden ser muy similares.</p>
     </li> <li> <h3>Qu'est-ce que les recommandations de livres aléatoires ?</h3> <p>Les recommandations de livres aléatoires est une plateforme qui génère des recommandations de livres au hasard pour vous aider à découvrir de nouvelles lectures passionnantes dans divers genres.</p> </li> <li> <h3>Comment fonctionnent les recommandations de livres aléatoires ?</h3> <p>Notre plateforme utilise un algorithme qui sélectionne des livres de manière aléatoire dans notre catalogue et fournit des descriptions succinctes ainsi que des détails pertinents pour surprendre et ravir les lecteurs.</p> </li> </ul></section><section> <ul> <li> <h3>Puis-je demander des recommandations de livres spécifiques ?</h3> <p>Non, les recommandations sont générées de manière aléatoire à partir de notre catalogue. Cependant, nous pensons que l'élément de surprise peut conduire à de plaisantes découvertes.</p> </li> <li> <h3>Les recommandations de livres sont-elles personnalisées ?</h3> <p>Non, les recommandations ne sont pas personnalisées. Elles sont générées de manière aléatoire et ne se basent pas sur les préférences individuelles ou l'historique de lecture antérieur.</p> </li> <li> <h3> À quelle fréquence les recommandations de livres sont-elles mises à jour ?</h3> <p>Les recommandations de livres sont mises à jour régulièrement pour assurer une sélection fraîche et diversifiée pour nos utilisateurs.</p> </li> </ul></section><section> <ul> <li> <h3>Puis-je contribuer avec mes propres recommandations de livres ?</h3> <p>Pour le moment, nous n'acceptons pas les contributions directes.</p> </li> <li> <h3>Comment puis-je donner des retours ou signaler des problèmes ?</h3> <p>Nous apprécions vos retours. N'hésitez pas à nous contacter via le formulaire de contact. Nous apprécierons tous les signalements de bogues, suggestions ou commentaires généraux.</p> </li> </ul></section>`,
     about_content:
-      "<section><h3>¡Bienvenido a Recomendaciones de libros aleatorios!</h3><p>  En Recomendaciones de libros aleatorios, somos apasionados de los libros y nos encanta compartir nuestras lecturas favoritas con otros amantes de los libros. Ya sea que seas un lector ávido o recién estés comenzando con tu viaje de lectura, estamos aquí para ayudarte a descubrir libros emocionantes en varios géneros.</p></section><section><h3>Nuestra misión</h3><p>Nuestra misión es brindarte una experiencia única de recomendación de libros. Creemos que el placer de la lectura radica en explorar nuevos géneros, descubrir gemas ocultas y arriesgarse con libros que quizás no hayas considerado antes. Es por eso que hemos creado una plataforma que genera aleatoriamente recomendaciones de libros para sorprender y deleitarte.</p></section><section><h3>Cómo funciona</h3><p>Es simple: ¡solo haz clic en el botón 'Sorpréndeme' y nuestro algoritmo seleccionará al azar un libro de nuestra extensa colección! Recibirás una breve descripción del libro, junto con el nombre del autor y otros detalles relevantes. Siéntete libre de explorar la recomendación más a fondo haciendo clic en el enlace proporcionado para obtener más información o realizar una compra.</p></section>",
+      "<section><h3>¡Bienvenido a Recomendacione de libros aleatorios!</h3><p>  En Recomendacione de libros aleatorios, somos apasionados de los libros y nos encanta compartir nuestras lecturas favoritas con otros amantes de los libros. Ya sea que seas un lector ávido o recién estés comenzando con tu viaje de lectura, estamos aquí para ayudarte a descubrir libros emocionantes en varios géneros.</p></section><section><h3>Nuestra misión</h3><p>Nuestra misión es brindarte una experiencia única de recomendación de libros. Creemos que el placer de la lectura radica en explorar nuevos géneros, descubrir gemas ocultas y arriesgarse con libros que quizás no hayas considerado antes. Es por eso que hemos creado una plataforma que genera aleatoriamente recomendaciones de libros para sorprender y deleitarte.</p></section><section><h3>Cómo funciona</h3><p>Es simple: ¡solo haz clic en el botón 'Sorpréndeme' y nuestro algoritmo seleccionará al azar un libro de nuestra extensa colección! Recibirás una breve descripción del libro, junto con el nombre del autor y otros detalles relevantes. Siéntete libre de explorar la recomendación más a fondo haciendo clic en el enlace proporcionado para obtener más información o realizar una compra.</p></section>",
   },
   zh_tw: {
     language: "繁體中文",
@@ -343,7 +343,7 @@ const LanDic = {
     language: "Polish",
     native_language: "Polski",
     html_title:
-      "Losowe Książki | Rekomendacje losowych książek. Miejsce, w którym możesz przełamać kokon informacyjny, znaleźć ukryte perełki i cieszyć się czytaniem",
+      "Losowe Książki | Losowa Rekomendacja Książki. Miejsce, w którym możesz przełamać kokon informacyjny, znaleźć ukryte perełki i cieszyć się czytaniem",
     html_mata_description:
       "Złamać kokon informacyjny i barierę wiedzy dzięki rekomendacji losowych książek. Odkryj szeroki wybór losowych książek na naszej stronie internetowej. Poznaj różne gatunki, autorów i tematy. Znajdź swoją następną wciągającą lekturę i zanurz się w świecie literatury. Rozpocznij swoją losową podróż po książkach już dziś!",
     brand: "Losowe Książki",
@@ -366,7 +366,7 @@ const LanDic = {
     contact_message: "Wiadomość",
     contact_submit: "Wyślij",
     home_slogan:
-      "Losowe Rekomendacje Książek<br/>Przełam kokon informacyjny. Zobacz świat w całości.",
+      "Losowa Rekomendacja Książki<br/>Przełam kokon informacyjny. Zobacz świat w całości.",
     home_slogan_p:
       "Wybierz losową książkę spośród milionów książek na całym świecie(Obsługa wielu języków, wybierz ten, który wolisz.).<br />Nigdy nie wiesz, co może się pojawić.",
     start_button: "Zaskocz mnie",
@@ -468,7 +468,7 @@ const LanDic = {
     language: "German",
     native_language: "Deutsch",
     html_title:
-      "Zufällige Bücher | Zufällige Buchempfehlungen. Ein Ort, um den Informationskokon zu durchbrechen, versteckte Schätze zu finden und das Lesen zu genießen",
+      "Zufällige Bücher | Zufällige Buchempfehlung. Ein Ort, um den Informationskokon zu durchbrechen, versteckte Schätze zu finden und das Lesen zu genießen",
     html_mata_description:
       "Den Informationskokon und die Wissensbarriere durchbrechen - mit zufälligen Buchempfehlungen. Entdecke eine große Auswahl an zufälligen Büchern auf unserer Website. Erkunde verschiedene Genres, Autoren und Themen. Finde deine nächste fesselnde Lektüre und tauche ein in die Welt der Literatur. Beginne deine zufällige Bücherreise noch heute!",
     brand: "Zufällige Bücher",
@@ -491,7 +491,7 @@ const LanDic = {
     contact_message: "Nachricht",
     contact_submit: "Senden",
     home_slogan:
-      "Zufällige Buchempfehlungen<br/>Durchbrich den Informationskokon. Sieh die Welt in ihrer ganzen Fülle.",
+      "Zufällige Buchempfehlung<br/>Durchbrich den Informationskokon. Sieh die Welt in ihrer ganzen Fülle.",
     home_slogan_p:
       "Wähle ein zufälliges Buch für dich aus Millionen von Büchern auf der ganzen Welt(Multilinguale Unterstützung, wählen Sie die von Ihnen gewünschte Sprache aus.).<br />Niemand weiß, was erscheinen könnte.",
     start_button: "Überrasch mich",
@@ -601,7 +601,7 @@ Es ist ganz einfach! Klicken Sie einfach auf die Schaltfläche "Überrasch mich"
     language: "Portuguese",
     native_language: "Português",
     html_title:
-      "Livros aleatórios | Recomendações de livros aleatórias. Um lugar para romper o casulo de informações, encontrar joias escondidas e desfrutar da leitura",
+      "Livros aleatórios | Recomendação de livro aleatório. Um lugar para romper o casulo de informações, encontrar joias escondidas e desfrutar da leitura",
     html_mata_description:
       "Romper o casulo de informações e a barreira do conhecimento através da recomendação aleatória de livros. Descubra uma ampla seleção de livros aleatórios em nosso site. Explore diversos gêneros, autores e temas. Encontre sua próxima leitura cativante e mergulhe no mundo da literatura. Comece sua jornada aleatória de livros hoje mesmo!",
     brand: "Livros aleatórios",
@@ -624,7 +624,7 @@ Es ist ganz einfach! Klicken Sie einfach auf die Schaltfläche "Überrasch mich"
     contact_message: "Mensagem",
     contact_submit: "Enviar",
     home_slogan:
-      "Recomendações de livros aleatórias<br/>Quebre o casulo de informações. Veja o mundo por completo.",
+      "Recomendação de livro aleatório<br/>Quebre o casulo de informações. Veja o mundo por completo.",
     home_slogan_p:
       "Escolha um livro aleatório para você entre milhões de livros em todo o mundo(Suporte multilíngue, escolha o que você preferir.).<br />Nunca se sabe o que pode aparecer.",
     start_button: "Surpreenda-me",
