@@ -5,7 +5,7 @@ const LanDic = {
     html_title:
       "Random Books | Random book recommendations. A place to the information cocoon, find hidden gem and enjoy reading",
     html_mata_description:
-      "Break the information cocoon and knowledge barrier. Discover a wide selection of random books on our website. Explore various genres, authors, and topics. Find your next captivating read and dive into the world of literature. Stay updated with our regularly updated collection of books. Start your random book journey today. Enjoy!",
+      "Break the information cocoon and knowledge barrier by random book recommendation. Discover a wide selection of random books on our website. Explore various genres, authors, and topics. Find your next captivating read and dive into the world of literature.  Start your random book journey today!",
     brand: "Random Books",
     home: "Home",
     FAQ: "FAQs",
@@ -41,7 +41,7 @@ const LanDic = {
       "It seems that you have reached the temporary limit . Please try again later.",
     message_sent:
       "The message has been successfully sent. Thank you for your feedback!",
-    home_explanation: `<h2>Why We Should Stay Away from Social Media and Read Some Randomly Selected Books to Break the Information Cocoon?</h2><p>In today's digital era, social media has become a prominent source of information and interaction. While it offers convenience and connectivity, staying away from social media and engaging in reading randomly selected books can be beneficial for several reasons: </p> <ul> <li> <h3>Diversifying perspectives</h3> <p> Social media algorithms often create an echo chamber, showing us content that aligns with our existing beliefs and interests. This can lead to a limited exposure to diverse viewpoints and a reinforcement of our own biases. Reading randomly selected books opens up new worlds and introduces us to a wide range of perspectives, challenging our preconceived notions and expanding our understanding of different cultures, ideas, and experiences. </p> </li> <li> <h3>Exploring depth and nuance</h3> <p> Social media thrives on brevity and simplicity, often reducing complex topics to bite-sized snippets. This can hinder our ability to grasp the depth and nuance of important issues. Books, on the other hand, provide comprehensive exploration and analysis of subjects, allowing us to delve deeply into topics and develop a more nuanced understanding. </p> </li> <li> <h3>Cultivating critical thinking</h3> <p> Social media platforms are designed to capture our attention and keep us engaged, often prioritizing sensationalism and clickbait. This can discourage critical thinking and encourage surface-level consumption of information. Reading books requires active engagement, promotes deep thinking, and encourages us to analyze, question, and evaluate the content we encounter. </p> </li> <li> <h3>Enhancing cognitive abilities</h3> <p> Research suggests that excessive social media use can have negative effects on cognitive functions such as memory, attention span, and problem-solving abilities. Reading books, on the contrary, has been linked to improved cognitive skills, including vocabulary expansion, enhanced concentration, and increased analytical thinking. </p> </li> <li> <h3>Fostering empathy and emotional intelligence</h3> <p> Social media interactions can be impersonal and lack emotional depth. Reading books, especially fiction, allows us to step into the lives of diverse characters, experiencing their joys, struggles, and emotions. This immersive experience fosters empathy and emotional intelligence, helping us develop a deeper understanding of others and enhancing our interpersonal relationships. </p> </li> <li> <h3>Practicing mindful consumption</h3> <p> Social media can easily become a source of mindless scrolling and information overload, leading to decreased productivity and increased stress levels. Taking a break from social media and engaging in reading promotes mindful consumption. It allows us to be intentional about the content we choose, dedicating focused time to absorb and reflect upon the information presented in books. </p> </li> </ul> <p> By staying away from social media and embracing the world of randomly selected books, we can break free from the information cocoon and broaden our horizons. Reading offers a gateway to diverse perspectives, intellectual growth, critical thinking, and emotional enrichment, fostering a well-rounded understanding of the world and our place within it. </p> <h3> Do not let the social media algorithm decide what you should see. Explore something new everyday. Expand your knowledge circle by real random recommendations. </h3>`,
+    home_explanation: `<h2>Why We Should Stay Away from Social Media and Read Some Randomly Selected Books to Break the Information Cocoon and knowledge barrier?</h2><p>In today's digital era, social media has become a prominent source of information and interaction. While it offers convenience and connectivity, staying away from social media and engaging in reading randomly selected books can be beneficial for several reasons: </p> <ul> <li> <h3>Diversifying perspectives</h3> <p> Social media algorithms often create an echo chamber, showing us content that aligns with our existing beliefs and interests. This can lead to a limited exposure to diverse viewpoints and a reinforcement of our own biases. Reading randomly selected books opens up new worlds and introduces us to a wide range of perspectives, challenging our preconceived notions and expanding our understanding of different cultures, ideas, and experiences. </p> </li> <li> <h3>Exploring depth and nuance</h3> <p> Social media thrives on brevity and simplicity, often reducing complex topics to bite-sized snippets. This can hinder our ability to grasp the depth and nuance of important issues. Books, on the other hand, provide comprehensive exploration and analysis of subjects, allowing us to delve deeply into topics and develop a more nuanced understanding. </p> </li> <li> <h3>Cultivating critical thinking</h3> <p> Social media platforms are designed to capture our attention and keep us engaged, often prioritizing sensationalism and clickbait. This can discourage critical thinking and encourage surface-level consumption of information. Reading books requires active engagement, promotes deep thinking, and encourages us to analyze, question, and evaluate the content we encounter. </p> </li> <li> <h3>Enhancing cognitive abilities</h3> <p> Research suggests that excessive social media use can have negative effects on cognitive functions such as memory, attention span, and problem-solving abilities. Reading books, on the contrary, has been linked to improved cognitive skills, including vocabulary expansion, enhanced concentration, and increased analytical thinking. </p> </li> <li> <h3>Fostering empathy and emotional intelligence</h3> <p> Social media interactions can be impersonal and lack emotional depth. Reading books, especially fiction, allows us to step into the lives of diverse characters, experiencing their joys, struggles, and emotions. This immersive experience fosters empathy and emotional intelligence, helping us develop a deeper understanding of others and enhancing our interpersonal relationships. </p> </li> <li> <h3>Practicing mindful consumption</h3> <p> Social media can easily become a source of mindless scrolling and information overload, leading to decreased productivity and increased stress levels. Taking a break from social media and engaging in reading promotes mindful consumption. It allows us to be intentional about the content we choose, dedicating focused time to absorb and reflect upon the information presented in books. </p> </li> </ul> <p> By staying away from social media and embracing the world of randomly selected books, we can break free from the information cocoon and broaden our horizons. Reading offers a gateway to diverse perspectives, intellectual growth, critical thinking, and emotional enrichment, fostering a well-rounded understanding of the world and our place within it. </p> <h3> Do not let the social media algorithm decide what you should see. Explore something new everyday. Expand your knowledge circle by real random recommendations. </h3>`,
     faq_content: `<section> <br /> <ul> <li>
     <h3>Why books sometimes appear do not correspond to the language chosen?</h3>
     <p>This is due to the fact that certain languages are historically homologous, such as the Latin and Chinese language families. Some of the words in their languages can be very similar.</p>
@@ -54,7 +54,7 @@ const LanDic = {
     html_title:
       "Livres Aléatoires | Recommandations de livres aléatoires. Un endroit pour rompre le cocon d'information, découvrir des pépites cachées et apprécier la lecture.",
     html_mata_description:
-      "Briser le cocon d'information et la barrière de la connaissance. Découvrez une large sélection de livres aléatoires sur notre site web. Explorez différents genres, auteurs et sujets. Trouvez votre prochaine lecture captivante et plongez dans le monde de la littérature. Restez à jour avec notre collection régulièrement mise à jour de livres. Commencez votre voyage de lecture dès aujourd'hui. Profitez-en !",
+      "Briser le cocon d'information et la barrière de la connaissance grâce à la recommandation de livres aléatoires. Découvrez une large sélection de livres aléatoires sur notre site web. Explorez divers genres, auteurs et sujets. Trouvez votre prochaine lecture captivante et plongez dans le monde de la littérature. Commencez votre voyage de livres aléatoires dès aujourd'hui !",
     brand: "Livres Aléatoires",
     home: "Accueil",
     FAQ: "FAQs",
@@ -103,7 +103,7 @@ const LanDic = {
     html_title:
       "Libros Aleatorios | Recomendaciones de libros aleatorios. Un lugar para romper el capullo de información, encontrar joyas ocultas y disfrutar de la lectura.",
     html_mata_description:
-      "Romper el capullo de información y la barrera del conocimiento. Descubre una amplia selección de libros aleatorios en nuestro sitio web. Explora diferentes géneros, autores y temas. Encuentra tu próxima lectura cautivadora y sumérgete en el mundo de la literatura. Mantente actualizado con nuestra colección de libros regularmente actualizada. ¡Comienza tu viaje de lectura hoy. ¡Disfruta!",
+      "Romper el capullo de información y la barrera del conocimiento mediante la recomendación aleatoria de libros. Descubre una amplia selección de libros aleatorios en nuestro sitio web. Explora diversos géneros, autores y temas. Encuentra tu próxima lectura cautivadora y sumérgete en el mundo de la literatura. ¡Comienza tu viaje aleatorio de libros hoy mismo!",
     brand: "Libros Aleatorios",
     home: "Inicio",
     FAQ: "Preguntas frecuentes",
@@ -156,7 +156,7 @@ const LanDic = {
     html_title:
       "隨機書籍 | 隨機書籍推薦。打破信息繭房，尋找隱藏寶石並享受閱讀的地方。",
     html_mata_description:
-      "打破信息茧房和知識障礙. 在我們的網站上發現各種隨機書籍的廣泛選擇。探索不同的流派、作者和主題。找到下一本引人入勝的閱讀，深入文學世界。隨著我們不斷更新的書籍收藏保持最新。今天開始你的閱讀之旅。享受吧！",
+      "打破信息茧房和知識障礙，通過隨機書籍推薦來實現。在我們的網站上發現各種隨機書籍。探索各種流派、作者和主題。找到您接下來的迷人讀物，並深入文學世界。今天就開始您的隨機書籍之旅吧！",
     brand: "隨機書籍",
     home: "首頁",
     FAQ: "常見問題",
@@ -206,7 +206,7 @@ const LanDic = {
     html_title:
       "随机书籍 | 随机书籍推荐。打破信息茧房，发现隐藏的宝藏，享受阅读的乐趣。",
     html_mata_description:
-      "打破信息茧房和知识障碍. 在我们的网站上发现各种随机书籍。探索各种类型、作者和主题。找到您的下一个迷人阅读，并深入文学世界。随时了解我们定期更新的书籍收藏。今天就开始您的阅读之旅！享受吧！",
+      "打破信息茧房和知识障碍，通过随机书籍推荐来实现。在我们的网站上发现各种随机书籍。探索各种流派、作者和主题。找到您接下来的迷人读物，并深入文学世界。今天就開始您的隨機書籍之旅吧！",
     brand: "随机书籍",
     home: "首页",
     FAQ: "常见问题",
@@ -345,7 +345,7 @@ const LanDic = {
     html_title:
       "Losowe Książki | Rekomendacje losowych książek. Miejsce, w którym możesz przełamać kokon informacyjny, znaleźć ukryte perełki i cieszyć się czytaniem",
     html_mata_description:
-      "Złamać kokon informacyjny i barierę wiedzy. Odkryj szeroki wybór losowych książek na naszej stronie internetowej. Poznaj różne gatunki, autorów i tematy. Znajdź swoją następną fascynującą lekturę i zanurz się w świecie literatury. Bądź na bieżąco z naszą regularnie aktualizowaną kolekcją książek. Zacznij swoją przygodę z czytaniem już dziś. Ciesz się!",
+      "Złamać kokon informacyjny i barierę wiedzy dzięki rekomendacji losowych książek. Odkryj szeroki wybór losowych książek na naszej stronie internetowej. Poznaj różne gatunki, autorów i tematy. Znajdź swoją następną wciągającą lekturę i zanurz się w świecie literatury. Rozpocznij swoją losową podróż po książkach już dziś!",
     brand: "Losowe Książki",
     home: "Strona główna",
     FAQ: "Często zadawane pytania",
@@ -470,7 +470,7 @@ const LanDic = {
     html_title:
       "Zufällige Bücher | Zufällige Buchempfehlungen. Ein Ort, um den Informationskokon zu durchbrechen, versteckte Schätze zu finden und das Lesen zu genießen",
     html_mata_description:
-      "Den Informationskokon und die Wissensbarriere durchbrechen. Entdecken Sie auf unserer Website eine große Auswahl an zufälligen Büchern. Stöbern Sie in verschiedenen Genres, Autoren und Themen. Finden Sie Ihre nächste fesselnde Lektüre und tauchen Sie ein in die Welt der Literatur. Bleiben Sie auf dem Laufenden mit unserer regelmäßig aktualisierten Sammlung von Büchern. Beginnen Sie Ihre Lesegewohnheit noch heute. Viel Spaß!",
+      "Den Informationskokon und die Wissensbarriere durchbrechen - mit zufälligen Buchempfehlungen. Entdecke eine große Auswahl an zufälligen Büchern auf unserer Website. Erkunde verschiedene Genres, Autoren und Themen. Finde deine nächste fesselnde Lektüre und tauche ein in die Welt der Literatur. Beginne deine zufällige Bücherreise noch heute!",
     brand: "Zufällige Bücher",
     home: "Startseite",
     FAQ: "FAQs",
@@ -603,7 +603,7 @@ Es ist ganz einfach! Klicken Sie einfach auf die Schaltfläche "Überrasch mich"
     html_title:
       "Livros aleatórios | Recomendações de livros aleatórias. Um lugar para romper o casulo de informações, encontrar joias escondidas e desfrutar da leitura",
     html_mata_description:
-      "Romper o casulo de informações e a barreira do conhecimento. Descubra uma ampla seleção de livros aleatórios em nosso site. Explore vários gêneros, autores e tópicos. Encontre sua próxima leitura cativante e mergulhe no mundo da literatura. Fique atualizado com nossa coleção de livros atualizada regularmente. Comece sua jornada de leitura hoje mesmo. Aproveite!",
+      "Romper o casulo de informações e a barreira do conhecimento através da recomendação aleatória de livros. Descubra uma ampla seleção de livros aleatórios em nosso site. Explore diversos gêneros, autores e temas. Encontre sua próxima leitura cativante e mergulhe no mundo da literatura. Comece sua jornada aleatória de livros hoje mesmo!",
     brand: "Livros aleatórios",
     home: "Início",
     FAQ: "Perguntas frequentes",
@@ -727,7 +727,7 @@ Nossa missão é fornecer a você uma experiência única de recomendação de l
     html_title:
       "ランダムブックス | ランダムな書籍の推薦。インフォメーションコクーンを破り、隠れた宝物を探し、読書を楽しむための場所",
     html_mata_description:
-      "インフォメーションコクーンと知識の壁を破る. 当社のウェブサイトで、幅広い種類のランダムな書籍を発見してください。さまざまなジャンル、著者、トピックを探索してください。次の魅力的な読書を見つけ、文学の世界に飛び込んでください。定期的に更新される書籍のコレクションで、最新情報を入手してください。今日から読書の旅を始めましょう。お楽しみください！",
+      "インフォメーションコクーンと知識の壁を破る、ランダムな書籍推薦。当社のウェブサイトで、さまざまなランダムな書籍を発見してください。さまざまなジャンル、著者、トピックを探索してください。次の魅力的な読書を見つけ、文学の世界に飛び込みましょう。今すぐ、ランダムな書籍の旅を始めましょう。",
     brand: "ランダムブックス",
     home: "ホーム",
     FAQ: "FAQ",

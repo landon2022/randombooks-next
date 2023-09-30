@@ -35,6 +35,7 @@ export default function LocaleLayout({ children, params: { locale } }) {
           crossOrigin="anonymous"
         />
         <meta charSet="utf-8" />
+        <meta name="twitter:card" content="summary"></meta>
         <link rel="shortcut icon" href="flogo.gif" />
         <link
           rel="alternate"
