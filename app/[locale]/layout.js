@@ -29,6 +29,11 @@ export default function LocaleLayout({ children, params: { locale } }) {
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_KEY}`}
         />
         <Script>{`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());gtag('config', '${process.env.GA_KEY}');`}</Script>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5689225684612617"
+          crossOrigin="anonymous"
+        />
         <meta charSet="utf-8" />
         <link rel="shortcut icon" href="flogo.gif" />
         <link
