@@ -122,7 +122,7 @@ export default function Footer() {
                     className="text-muted"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://twitter.com/lc81117740"
+                    href="https://twitter.com/fancytravel2000"
                   >
                     <i aria-hidden className="social-icon fab fa-twitter"></i>
                   </a>
