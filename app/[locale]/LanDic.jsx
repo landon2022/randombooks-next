@@ -3,9 +3,9 @@ const LanDic = {
     language: "English",
     native_language: "English",
     html_title:
-      "Random Books | Random book recommendations. A place to break the information cocoon, find hidden gem and enjoy reading",
+      "Random Books | Random book recommendations. A place to the information cocoon, find hidden gem and enjoy reading",
     html_mata_description:
-      "Discover a wide selection of random books on our website. Explore various genres, authors, and topics. Find your next captivating read and dive into the world of literature. Stay updated with our regularly updated collection of books. Start your random book journey today. Enjoy!",
+      "Break the information cocoon and knowledge barrier. Discover a wide selection of random books on our website. Explore various genres, authors, and topics. Find your next captivating read and dive into the world of literature. Stay updated with our regularly updated collection of books. Start your random book journey today. Enjoy!",
     brand: "Random Books",
     home: "Home",
     FAQ: "FAQs",
@@ -25,7 +25,8 @@ const LanDic = {
     contact_message: "Message",
     contact_submit: "Submit",
     home_slogan: `Random Book Recommendations<br/>Break the information cocoon. See the world in full.`,
-    home_slogan_p: `Pick a random book for you from millions of books all around the world.`,
+    home_slogan_p:
+      "Pick a random book for you from millions of books all around the world(Multi-language support, choose the one you prefer.).",
     start_button: "Surprise Me",
     coming_button: "Coming...",
     author: "Authored by",
@@ -42,7 +43,7 @@ const LanDic = {
       "The message has been successfully sent. Thank you for your feedback!",
     home_explanation: `<h2>Why We Should Stay Away from Social Media and Read Some Randomly Selected Books to Break the Information Cocoon?</h2><p>In today's digital era, social media has become a prominent source of information and interaction. While it offers convenience and connectivity, staying away from social media and engaging in reading randomly selected books can be beneficial for several reasons: </p> <ul> <li> <h3>Diversifying perspectives</h3> <p> Social media algorithms often create an echo chamber, showing us content that aligns with our existing beliefs and interests. This can lead to a limited exposure to diverse viewpoints and a reinforcement of our own biases. Reading randomly selected books opens up new worlds and introduces us to a wide range of perspectives, challenging our preconceived notions and expanding our understanding of different cultures, ideas, and experiences. </p> </li> <li> <h3>Exploring depth and nuance</h3> <p> Social media thrives on brevity and simplicity, often reducing complex topics to bite-sized snippets. This can hinder our ability to grasp the depth and nuance of important issues. Books, on the other hand, provide comprehensive exploration and analysis of subjects, allowing us to delve deeply into topics and develop a more nuanced understanding. </p> </li> <li> <h3>Cultivating critical thinking</h3> <p> Social media platforms are designed to capture our attention and keep us engaged, often prioritizing sensationalism and clickbait. This can discourage critical thinking and encourage surface-level consumption of information. Reading books requires active engagement, promotes deep thinking, and encourages us to analyze, question, and evaluate the content we encounter. </p> </li> <li> <h3>Enhancing cognitive abilities</h3> <p> Research suggests that excessive social media use can have negative effects on cognitive functions such as memory, attention span, and problem-solving abilities. Reading books, on the contrary, has been linked to improved cognitive skills, including vocabulary expansion, enhanced concentration, and increased analytical thinking. </p> </li> <li> <h3>Fostering empathy and emotional intelligence</h3> <p> Social media interactions can be impersonal and lack emotional depth. Reading books, especially fiction, allows us to step into the lives of diverse characters, experiencing their joys, struggles, and emotions. This immersive experience fosters empathy and emotional intelligence, helping us develop a deeper understanding of others and enhancing our interpersonal relationships. </p> </li> <li> <h3>Practicing mindful consumption</h3> <p> Social media can easily become a source of mindless scrolling and information overload, leading to decreased productivity and increased stress levels. Taking a break from social media and engaging in reading promotes mindful consumption. It allows us to be intentional about the content we choose, dedicating focused time to absorb and reflect upon the information presented in books. </p> </li> </ul> <p> By staying away from social media and embracing the world of randomly selected books, we can break free from the information cocoon and broaden our horizons. Reading offers a gateway to diverse perspectives, intellectual growth, critical thinking, and emotional enrichment, fostering a well-rounded understanding of the world and our place within it. </p> <h3> Do not let the social media algorithm decide what you should see. Explore something new everyday. Expand your knowledge circle by real random recommendations. </h3>`,
     faq_content: `<section> <br /> <ul> <li>
-    <h3>Why do books sometimes appear that do not correspond to the language chosen?</h3>
+    <h3>Why do books sometimes appear do not correspond to the language chosen?</h3>
     <p>This is due to the fact that certain languages are historically homologous, such as the Latin and Chinese language families. Some of the words in their languages can be very similar.</p>
   </li><li> <h3>What is Random Book Recommendations?</h3> <p> Random Book Recommendations is a platform that generates random book recommendations to help you discover new and exciting reads across various genres. </p> </li> <li> <h3>How does Random Book Recommendations work?</h3> <p> Our platform utilizes an algorithm that randomly selects books from our collection and provides brief descriptions along with relevant details to surprise and delight readers. </p> </li> </ul></section><section> <ul> <li> <h3>Can I request specific book recommendations?</h3> <p> No, the recommendations are randomly generated from our collection. However, we believe that the element of surprise can lead to delightful discoveries. </p> </li> <li> <h3>Are the book recommendations personalized?</h3> <p> No, the recommendations are not personalized. They are randomly generated and not based on individual preferences or previous reading history. </p> </li> <li> <h3>How often are the book recommendations updated?</h3> <p> The book recommendations are updated regularly to ensure a fresh and diverse selection for our users. </p> </li> </ul></section><section> <ul> <li> <h3>Can I contribute my own book recommendations?</h3> <p>Currently, we do not accept direct contributions.</p> </li> <li> <h3>How can I provide feedback or report issues?</h3> <p> We value your feedback. Please contact us through the provided contact form. We appreciate any bug reports, suggestions, or general feedback you may have. </p> </li> </ul></section>`,
     about_content: `<section><h3>Welcome to Random Book Recommendations!</h3><p>  At Random Book Recommendations, we are passionate about books  and love to share our favorite reads with fellow bookworms.  Whether you're an avid reader or just getting started on your  reading journey, we're here to help you discover exciting books  across various genres.</p></section><section><h3>Our Mission</h3><p>  Our mission is to provide you with a unique book recommendation  experience. We believe that the joy of reading lies in exploring  new genres, discovering hidden gems, and taking a chance on  books you might not have considered before. That's why we've  created a platform that randomly generates book recommendations  to surprise and delight you.</p></section><section><h3>How It Works</h3><p>  It's simple! Just click the 'Surprise me' button, and our  algorithm will randomly select a book from our extensive  collection. You'll receive a brief description of the book,  along with the author's name and other relevant details. Feel  free to explore the recommendation further by clicking on the  provided link to learn more or make a purchase.</p></section>`,
@@ -53,7 +54,7 @@ const LanDic = {
     html_title:
       "Livres Aléatoires | Recommandations de livres aléatoires. Un endroit pour rompre le cocon d'information, découvrir des pépites cachées et apprécier la lecture.",
     html_mata_description:
-      "Découvrez une large sélection de livres aléatoires sur notre site web. Explorez différents genres, auteurs et sujets. Trouvez votre prochaine lecture captivante et plongez dans le monde de la littérature. Restez à jour avec notre collection régulièrement mise à jour de livres. Commencez votre voyage de lecture dès aujourd'hui. Profitez-en !",
+      "Briser le cocon d'information et la barrière de la connaissance. Découvrez une large sélection de livres aléatoires sur notre site web. Explorez différents genres, auteurs et sujets. Trouvez votre prochaine lecture captivante et plongez dans le monde de la littérature. Restez à jour avec notre collection régulièrement mise à jour de livres. Commencez votre voyage de lecture dès aujourd'hui. Profitez-en !",
     brand: "Livres Aléatoires",
     home: "Accueil",
     FAQ: "FAQs",
@@ -74,7 +75,7 @@ const LanDic = {
     contact_submit: "Envoyer",
     home_slogan: `Recommandations de livres aléatoires <br />     Brisez le cocon d'information. Voyez le monde en entier.`,
     home_slogan_p:
-      "Choisissez un livre aléatoire parmi des millions de livres du monde entier.",
+      "Choisissez un livre aléatoire parmi des millions de livres du monde entier(Prise en charge multilingue, choisissez celle que vous préférez.).",
     start_button: "Surprenez-moi",
     coming_button: "À venir...",
     author: "Écrit par",
@@ -102,7 +103,7 @@ const LanDic = {
     html_title:
       "Libros Aleatorios | Recomendaciones de libros aleatorios. Un lugar para romper el capullo de información, encontrar joyas ocultas y disfrutar de la lectura.",
     html_mata_description:
-      "Descubre una amplia selección de libros aleatorios en nuestro sitio web. Explora diferentes géneros, autores y temas. Encuentra tu próxima lectura cautivadora y sumérgete en el mundo de la literatura. Mantente actualizado con nuestra colección de libros regularmente actualizada. ¡Comienza tu viaje de lectura hoy. ¡Disfruta!",
+      "Romper el capullo de información y la barrera del conocimiento. Descubre una amplia selección de libros aleatorios en nuestro sitio web. Explora diferentes géneros, autores y temas. Encuentra tu próxima lectura cautivadora y sumérgete en el mundo de la literatura. Mantente actualizado con nuestra colección de libros regularmente actualizada. ¡Comienza tu viaje de lectura hoy. ¡Disfruta!",
     brand: "Libros Aleatorios",
     home: "Inicio",
     FAQ: "Preguntas frecuentes",
@@ -125,7 +126,7 @@ const LanDic = {
     home_slogan:
       "Recomendaciones de libros al azar<br/>Rompe el capullo de información. Ve el mundo en su totalidad.",
     home_slogan_p:
-      "Elige un libro al azar entre millones de libros de todo el mundo.",
+      "Elige un libro al azar entre millones de libros de todo el mundo(Soporte multilingüe, elija el que prefiera.).",
     start_button: "Sorpréndeme",
     coming_button: "Próximamente...",
     author: "Escrito por",
@@ -155,7 +156,7 @@ const LanDic = {
     html_title:
       "隨機書籍 | 隨機書籍推薦。打破信息繭房，尋找隱藏寶石並享受閱讀的地方。",
     html_mata_description:
-      "在我們的網站上發現各種隨機書籍的廣泛選擇。探索不同的流派、作者和主題。找到下一本引人入勝的閱讀，深入文學世界。隨著我們不斷更新的書籍收藏保持最新。今天開始你的閱讀之旅。享受吧！",
+      "打破信息茧房和知識障礙. 在我們的網站上發現各種隨機書籍的廣泛選擇。探索不同的流派、作者和主題。找到下一本引人入勝的閱讀，深入文學世界。隨著我們不斷更新的書籍收藏保持最新。今天開始你的閱讀之旅。享受吧！",
     brand: "隨機書籍",
     home: "首頁",
     FAQ: "常見問題",
@@ -176,7 +177,8 @@ const LanDic = {
     contact_message: "訊息",
     contact_submit: "提交",
     home_slogan: "隨機書籍推薦<br/>打破信息繭房，全面了解世界。",
-    home_slogan_p: "從全球數百萬本書中為您選擇一本隨機書籍。",
+    home_slogan_p:
+      "從全球數百萬本書中為您選擇一本隨機書籍(多國語言支持，選擇您喜歡的語言。)。",
     start_button: "讓我驚喜一下",
     coming_button: "即將推出...",
     author: "作者",
@@ -204,7 +206,7 @@ const LanDic = {
     html_title:
       "随机书籍 | 随机书籍推荐。打破信息茧房，发现隐藏的宝藏，享受阅读的乐趣。",
     html_mata_description:
-      "在我们的网站上发现各种随机书籍。探索各种类型、作者和主题。找到您的下一个迷人阅读，并深入文学世界。随时了解我们定期更新的书籍收藏。今天就开始您的阅读之旅！享受吧！",
+      "打破信息茧房和知识障碍. 在我们的网站上发现各种随机书籍。探索各种类型、作者和主题。找到您的下一个迷人阅读，并深入文学世界。随时了解我们定期更新的书籍收藏。今天就开始您的阅读之旅！享受吧！",
     brand: "随机书籍",
     home: "首页",
     FAQ: "常见问题",
@@ -225,7 +227,8 @@ const LanDic = {
     contact_message: "留言",
     contact_submit: "提交",
     home_slogan: "随机书籍推荐<br/>打破信息茧房。全面了解世界。",
-    home_slogan_p: "从全球数百万本书中为您挑选一本随机书籍。",
+    home_slogan_p:
+      "从全球数百万本书中为您挑选一本随机书籍(多国语言支持，选择您喜欢的语言。)。",
     start_button: "给我惊喜",
     coming_button: "即将推出",
     author: "作者",
@@ -342,7 +345,7 @@ const LanDic = {
     html_title:
       "Losowe Książki | Rekomendacje losowych książek. Miejsce, w którym możesz przełamać kokon informacyjny, znaleźć ukryte perełki i cieszyć się czytaniem",
     html_mata_description:
-      "Odkryj szeroki wybór losowych książek na naszej stronie internetowej. Poznaj różne gatunki, autorów i tematy. Znajdź swoją następną fascynującą lekturę i zanurz się w świecie literatury. Bądź na bieżąco z naszą regularnie aktualizowaną kolekcją książek. Zacznij swoją przygodę z czytaniem już dziś. Ciesz się!",
+      "Złamać kokon informacyjny i barierę wiedzy. Odkryj szeroki wybór losowych książek na naszej stronie internetowej. Poznaj różne gatunki, autorów i tematy. Znajdź swoją następną fascynującą lekturę i zanurz się w świecie literatury. Bądź na bieżąco z naszą regularnie aktualizowaną kolekcją książek. Zacznij swoją przygodę z czytaniem już dziś. Ciesz się!",
     brand: "Losowe Książki",
     home: "Strona główna",
     FAQ: "Często zadawane pytania",
@@ -365,7 +368,7 @@ const LanDic = {
     home_slogan:
       "Losowe Rekomendacje Książek<br/>Przełam kokon informacyjny. Zobacz świat w całości.",
     home_slogan_p:
-      "Wybierz losową książkę spośród milionów książek na całym świecie.",
+      "Wybierz losową książkę spośród milionów książek na całym świecie(Obsługa wielu języków, wybierz ten, który wolisz.).",
     start_button: "Zaskocz mnie",
     coming_button: "Wkrótce",
     author: "Autor",
@@ -467,7 +470,7 @@ const LanDic = {
     html_title:
       "Zufällige Bücher | Zufällige Buchempfehlungen. Ein Ort, um den Informationskokon zu durchbrechen, versteckte Schätze zu finden und das Lesen zu genießen",
     html_mata_description:
-      "Entdecken Sie auf unserer Website eine große Auswahl an zufälligen Büchern. Stöbern Sie in verschiedenen Genres, Autoren und Themen. Finden Sie Ihre nächste fesselnde Lektüre und tauchen Sie ein in die Welt der Literatur. Bleiben Sie auf dem Laufenden mit unserer regelmäßig aktualisierten Sammlung von Büchern. Beginnen Sie Ihre Lesegewohnheit noch heute. Viel Spaß!",
+      "Den Informationskokon und die Wissensbarriere durchbrechen. Entdecken Sie auf unserer Website eine große Auswahl an zufälligen Büchern. Stöbern Sie in verschiedenen Genres, Autoren und Themen. Finden Sie Ihre nächste fesselnde Lektüre und tauchen Sie ein in die Welt der Literatur. Bleiben Sie auf dem Laufenden mit unserer regelmäßig aktualisierten Sammlung von Büchern. Beginnen Sie Ihre Lesegewohnheit noch heute. Viel Spaß!",
     brand: "Zufällige Bücher",
     home: "Startseite",
     FAQ: "FAQs",
@@ -490,7 +493,7 @@ const LanDic = {
     home_slogan:
       "Zufällige Buchempfehlungen<br/>Durchbrich den Informationskokon. Sieh die Welt in ihrer ganzen Fülle.",
     home_slogan_p:
-      "Wähle ein zufälliges Buch für dich aus Millionen von Büchern auf der ganzen Welt.",
+      "Wähle ein zufälliges Buch für dich aus Millionen von Büchern auf der ganzen Welt(Multilinguale Unterstützung, wählen Sie die von Ihnen gewünschte Sprache aus.).",
     start_button: "Überrasch mich",
     coming_button: "Kommt bald...",
     author: "Verfasst von",
@@ -600,7 +603,7 @@ Es ist ganz einfach! Klicken Sie einfach auf die Schaltfläche "Überrasch mich"
     html_title:
       "Livros aleatórios | Recomendações de livros aleatórias. Um lugar para romper o casulo de informações, encontrar joias escondidas e desfrutar da leitura",
     html_mata_description:
-      "Descubra uma ampla seleção de livros aleatórios em nosso site. Explore vários gêneros, autores e tópicos. Encontre sua próxima leitura cativante e mergulhe no mundo da literatura. Fique atualizado com nossa coleção de livros atualizada regularmente. Comece sua jornada de leitura hoje mesmo. Aproveite!",
+      "Romper o casulo de informações e a barreira do conhecimento. Descubra uma ampla seleção de livros aleatórios em nosso site. Explore vários gêneros, autores e tópicos. Encontre sua próxima leitura cativante e mergulhe no mundo da literatura. Fique atualizado com nossa coleção de livros atualizada regularmente. Comece sua jornada de leitura hoje mesmo. Aproveite!",
     brand: "Livros aleatórios",
     home: "Início",
     FAQ: "Perguntas frequentes",
@@ -623,7 +626,7 @@ Es ist ganz einfach! Klicken Sie einfach auf die Schaltfläche "Überrasch mich"
     home_slogan:
       "Recomendações de livros aleatórias<br/>Quebre o casulo de informações. Veja o mundo por completo.",
     home_slogan_p:
-      "Escolha um livro aleatório para você entre milhões de livros em todo o mundo.",
+      "Escolha um livro aleatório para você entre milhões de livros em todo o mundo(Suporte multilíngue, escolha o que você preferir.).",
     start_button: "Surpreenda-me",
     coming_button: "Em breve...",
     author: "Autorado por",
@@ -724,7 +727,7 @@ Nossa missão é fornecer a você uma experiência única de recomendação de l
     html_title:
       "ランダムブックス | ランダムな書籍の推薦。インフォメーションコクーンを破り、隠れた宝物を探し、読書を楽しむための場所",
     html_mata_description:
-      "当社のウェブサイトで、幅広い種類のランダムな書籍を発見してください。さまざまなジャンル、著者、トピックを探索してください。次の魅力的な読書を見つけ、文学の世界に飛び込んでください。定期的に更新される書籍のコレクションで、最新情報を入手してください。今日から読書の旅を始めましょう。お楽しみください！",
+      "インフォメーションコクーンと知識の壁を破る. 当社のウェブサイトで、幅広い種類のランダムな書籍を発見してください。さまざまなジャンル、著者、トピックを探索してください。次の魅力的な読書を見つけ、文学の世界に飛び込んでください。定期的に更新される書籍のコレクションで、最新情報を入手してください。今日から読書の旅を始めましょう。お楽しみください！",
     brand: "ランダムブックス",
     home: "ホーム",
     FAQ: "FAQ",
@@ -747,7 +750,7 @@ Nossa missão é fornecer a você uma experiência única de recomendação de l
     home_slogan:
       "ランダムな書籍の推薦<br/>インフォメーションコクーンを破る。世界を全面的に見る。",
     home_slogan_p:
-      "世界中の何百万冊もの書籍からあなたにランダムな書籍をお選びします。",
+      "世界中の何百万冊もの書籍からあなたにランダムな書籍をお選びします(多言語サポート、お好きな言語をお選びください。)。",
     start_button: "驚かせて！",
     coming_button: "持上がる...",
     author: "著者",

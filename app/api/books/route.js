@@ -74,11 +74,15 @@ export async function POST(request) {
       //   volumeInfo: item.volumeInfo,
       //   searchInfo: item.searchInfo,
       // }));
-      await client
-        .db("randombooks")
-        .collection(language)
-        .insertMany(result.items);
-      return NextResponse.json(result);
+      try {
+        await client
+          .db("randombooks")
+          .collection(language)
+          .insertMany(result.items);
+        return NextResponse.json(result);
+      } catch (error) {
+        return NextResponse.json(result);
+      }
     } else {
       return NextResponse.json({ requestAgain: true });
     }

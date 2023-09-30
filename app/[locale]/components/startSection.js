@@ -6,7 +6,7 @@ import withReactContent from "sweetalert2-react-content";
 import LanDic from "../LanDic";
 import { useLocale } from "next-intl";
 
-export default function Home(props) {
+export default function StartSection() {
   let locale = useLocale();
   const [book, setBook] = useState();
   const [button, setButton] = useState();
@@ -25,7 +25,7 @@ export default function Home(props) {
     );
     bookPool = [];
 
-    handleBookRequest(LanDic[locale].language);
+    // handleBookRequest(LanDic[locale].language);
   }, [LanDic[locale].language]);
 
   async function handleBookRequest(lan) {
@@ -200,108 +200,75 @@ export default function Home(props) {
   }
 
   return (
-    <div className="container">
-      <div className="main-container">
-        <div className="content-container">
+    <div className="start-section">
+      <div>{button}</div>
+
+      <br />
+
+      {book !== undefined ? (
+        <div className="content-display ">
+          <h2 className="pt-2">{book.volumeInfo.title}</h2>
+          <h3>{book.volumeInfo.subtitle}</h3>
+          <h4>
+            {LanDic[locale].author} {book.volumeInfo.authors}
+          </h4>
+          <span>
+            {LanDic[locale].publisher}: {book.volumeInfo.publisher}{" "}
+          </span>
+          <span>
+            | {LanDic[locale].publish_date}: {book.volumeInfo.publishedDate}
+          </span>
           <br />
           <br />
-          <div className="action-zone">
-            <br />
-            <h1
-              className="slogan"
-              dangerouslySetInnerHTML={{ __html: LanDic[locale].home_slogan }}
-            ></h1>
+          <div className="content-details row">
+            <div className="book-cover col-lg-6 ">
+              <img
+                className="book-cover-img"
+                src={
+                  book.volumeInfo.imageLinks !== undefined
+                    ? book.volumeInfo.imageLinks.thumbnail
+                    : "/img-not-available.png"
+                }
+                alt="book-cover"
+              />
+            </div>
 
-            <hr />
-            <br />
+            <div className="book-detail col-lg-6">
+              <h4>{LanDic[locale].book_description}:</h4>
 
-            <p>{LanDic[locale].home_slogan_p}</p>
-
-            <div className="start-section">
-              <div>{button}</div>
-
+              <div>
+                <p className="book-description">
+                  {book.volumeInfo.description}
+                </p>
+              </div>
               <br />
-
-              {book !== undefined ? (
-                <div className="content-display ">
-                  <h2 className="pt-2">{book.volumeInfo.title}</h2>
-                  <h3>{book.volumeInfo.subtitle}</h3>
-                  <h4>
-                    {LanDic[locale].author} {book.volumeInfo.authors}
-                  </h4>
-                  <span>
-                    {LanDic[locale].publisher}: {book.volumeInfo.publisher}{" "}
-                  </span>
-                  <span>
-                    | {LanDic[locale].publish_date}:{" "}
-                    {book.volumeInfo.publishedDate}
-                  </span>
-                  <br />
-                  <br />
-                  <div className="content-details row">
-                    <div className="book-cover col-lg-6 ">
-                      <img
-                        className="book-cover-img"
-                        src={
-                          book.volumeInfo.imageLinks !== undefined
-                            ? book.volumeInfo.imageLinks.thumbnail
-                            : "/img-not-available.png"
-                        }
-                        alt="book-cover"
-                      />
-                    </div>
-
-                    <div className="book-detail col-lg-6">
-                      <h4>{LanDic[locale].book_description}:</h4>
-
-                      <div>
-                        <p className="book-description">
-                          {book.volumeInfo.description}
-                        </p>
-                      </div>
-                      <br />
-                      <h4>{LanDic[locale].text_snippet}:</h4>
-                      <p
-                        dangerouslySetInnerHTML={{
-                          __html:
-                            book.searchInfo !== undefined
-                              ? book.searchInfo.textSnippet.replace(
-                                  /<b>|<\/b>/g,
-                                  ""
-                                )
-                              : null,
-                        }}
-                        className="text-snippet"
-                      ></p>
-                    </div>
-                    <br />
-                  </div>
-                  <div>
-                    <p className=" mt-3 pb-2">
-                      {LanDic[locale].question_text}?
-                      <a
-                        href={book.volumeInfo.infoLink}
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <span> {LanDic[locale].click_text} </span>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              ) : null}
+              <h4>{LanDic[locale].text_snippet}:</h4>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html:
+                    book.searchInfo !== undefined
+                      ? book.searchInfo.textSnippet.replace(/<b>|<\/b>/g, "")
+                      : null,
+                }}
+                className="text-snippet"
+              ></p>
             </div>
             <br />
           </div>
-          <br />
-          <div
-            className="explanation"
-            dangerouslySetInnerHTML={{
-              __html: LanDic[locale].home_explanation,
-            }}
-          ></div>
+          <div>
+            <p className=" mt-3 pb-2">
+              {LanDic[locale].question_text}?
+              <a
+                href={book.volumeInfo.infoLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span> {LanDic[locale].click_text} </span>
+              </a>
+            </p>
+          </div>
         </div>
-      </div>
+      ) : null}
     </div>
   );
 }
