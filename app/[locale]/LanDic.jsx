@@ -26,7 +26,7 @@ const LanDic = {
     contact_submit: "Submit",
     home_slogan: `Random Book Recommendations<br/>Break the information cocoon. See the world in full.`,
     home_slogan_p:
-      "Pick a random book for you from millions of books all around the world(Multi-language support, choose the one you prefer.).",
+      "Pick a random book for you from millions of books all around the world(Multi-language support, choose the one you prefer.).<br />Never know what might appear.",
     start_button: "Surprise Me",
     coming_button: "Coming...",
     author: "Authored by",
@@ -43,10 +43,10 @@ const LanDic = {
       "The message has been successfully sent. Thank you for your feedback!",
     home_explanation: `<h2>Why We Should Stay Away from Social Media and Read Some Randomly Selected Books to Break the Information Cocoon?</h2><p>In today's digital era, social media has become a prominent source of information and interaction. While it offers convenience and connectivity, staying away from social media and engaging in reading randomly selected books can be beneficial for several reasons: </p> <ul> <li> <h3>Diversifying perspectives</h3> <p> Social media algorithms often create an echo chamber, showing us content that aligns with our existing beliefs and interests. This can lead to a limited exposure to diverse viewpoints and a reinforcement of our own biases. Reading randomly selected books opens up new worlds and introduces us to a wide range of perspectives, challenging our preconceived notions and expanding our understanding of different cultures, ideas, and experiences. </p> </li> <li> <h3>Exploring depth and nuance</h3> <p> Social media thrives on brevity and simplicity, often reducing complex topics to bite-sized snippets. This can hinder our ability to grasp the depth and nuance of important issues. Books, on the other hand, provide comprehensive exploration and analysis of subjects, allowing us to delve deeply into topics and develop a more nuanced understanding. </p> </li> <li> <h3>Cultivating critical thinking</h3> <p> Social media platforms are designed to capture our attention and keep us engaged, often prioritizing sensationalism and clickbait. This can discourage critical thinking and encourage surface-level consumption of information. Reading books requires active engagement, promotes deep thinking, and encourages us to analyze, question, and evaluate the content we encounter. </p> </li> <li> <h3>Enhancing cognitive abilities</h3> <p> Research suggests that excessive social media use can have negative effects on cognitive functions such as memory, attention span, and problem-solving abilities. Reading books, on the contrary, has been linked to improved cognitive skills, including vocabulary expansion, enhanced concentration, and increased analytical thinking. </p> </li> <li> <h3>Fostering empathy and emotional intelligence</h3> <p> Social media interactions can be impersonal and lack emotional depth. Reading books, especially fiction, allows us to step into the lives of diverse characters, experiencing their joys, struggles, and emotions. This immersive experience fosters empathy and emotional intelligence, helping us develop a deeper understanding of others and enhancing our interpersonal relationships. </p> </li> <li> <h3>Practicing mindful consumption</h3> <p> Social media can easily become a source of mindless scrolling and information overload, leading to decreased productivity and increased stress levels. Taking a break from social media and engaging in reading promotes mindful consumption. It allows us to be intentional about the content we choose, dedicating focused time to absorb and reflect upon the information presented in books. </p> </li> </ul> <p> By staying away from social media and embracing the world of randomly selected books, we can break free from the information cocoon and broaden our horizons. Reading offers a gateway to diverse perspectives, intellectual growth, critical thinking, and emotional enrichment, fostering a well-rounded understanding of the world and our place within it. </p> <h3> Do not let the social media algorithm decide what you should see. Explore something new everyday. Expand your knowledge circle by real random recommendations. </h3>`,
     faq_content: `<section> <br /> <ul> <li>
-    <h3>Why do books sometimes appear do not correspond to the language chosen?</h3>
+    <h3>Why books sometimes appear do not correspond to the language chosen?</h3>
     <p>This is due to the fact that certain languages are historically homologous, such as the Latin and Chinese language families. Some of the words in their languages can be very similar.</p>
-  </li><li> <h3>What is Random Book Recommendations?</h3> <p> Random Book Recommendations is a platform that generates random book recommendations to help you discover new and exciting reads across various genres. </p> </li> <li> <h3>How does Random Book Recommendations work?</h3> <p> Our platform utilizes an algorithm that randomly selects books from our collection and provides brief descriptions along with relevant details to surprise and delight readers. </p> </li> </ul></section><section> <ul> <li> <h3>Can I request specific book recommendations?</h3> <p> No, the recommendations are randomly generated from our collection. However, we believe that the element of surprise can lead to delightful discoveries. </p> </li> <li> <h3>Are the book recommendations personalized?</h3> <p> No, the recommendations are not personalized. They are randomly generated and not based on individual preferences or previous reading history. </p> </li> <li> <h3>How often are the book recommendations updated?</h3> <p> The book recommendations are updated regularly to ensure a fresh and diverse selection for our users. </p> </li> </ul></section><section> <ul> <li> <h3>Can I contribute my own book recommendations?</h3> <p>Currently, we do not accept direct contributions.</p> </li> <li> <h3>How can I provide feedback or report issues?</h3> <p> We value your feedback. Please contact us through the provided contact form. We appreciate any bug reports, suggestions, or general feedback you may have. </p> </li> </ul></section>`,
-    about_content: `<section><h3>Welcome to Random Book Recommendations!</h3><p>  At Random Book Recommendations, we are passionate about books  and love to share our favorite reads with fellow bookworms.  Whether you're an avid reader or just getting started on your  reading journey, we're here to help you discover exciting books  across various genres.</p></section><section><h3>Our Mission</h3><p>  Our mission is to provide you with a unique book recommendation  experience. We believe that the joy of reading lies in exploring  new genres, discovering hidden gems, and taking a chance on  books you might not have considered before. That's why we've  created a platform that randomly generates book recommendations  to surprise and delight you.</p></section><section><h3>How It Works</h3><p>  It's simple! Just click the 'Surprise me' button, and our  algorithm will randomly select a book from our extensive  collection. You'll receive a brief description of the book,  along with the author's name and other relevant details. Feel  free to explore the recommendation further by clicking on the  provided link to learn more or make a purchase.</p></section>`,
+  </li><li> <h3>What is Random Book Recommendations?</h3> <p> Random Book Recommendations is a platform that generates random book recommendations to help you discover new and exciting reads across various genres. </p> </li> <li> <h3>How does Random Book Recommendations work?</h3> <p> Our platform utilizes an algorithm that randomly selects books from our collection(powered by Google Books) and provides brief descriptions along with relevant details to surprise and delight readers. </p> </li> </ul></section><section> <ul> <li> <h3>Can I request specific book recommendations?</h3> <p> No, the recommendations are randomly generated from our collection. However, we believe that the element of surprise can lead to delightful discoveries. </p> </li> <li> <h3>Are the book recommendations personalized?</h3> <p> No, the recommendations are not personalized. They are randomly generated and not based on individual preferences or previous reading history. </p> </li> <li> <h3>How often are the book recommendations updated?</h3> <p> The book recommendations are updated regularly to ensure a fresh and diverse selection for our users. </p> </li> </ul></section><section> <ul> <li> <h3>Can I contribute my own book recommendations?</h3> <p>Currently, we do not accept direct contributions.</p> </li> <li> <h3>How can I provide feedback or report issues?</h3> <p> We value your feedback. Please contact us through the provided contact form. We appreciate any bug reports, suggestions, or general feedback you may have. </p> </li> </ul></section>`,
+    about_content: `<section><h3>Welcome to Random Book Recommendations!</h3><p>  At Random Book Recommendations, we are passionate about books  and love to share our favorite reads with fellow bookworms.  Whether you're an avid reader or just getting started on your  reading journey, we're here to help you discover exciting books  across various genres.</p></section><section><h3>Our Mission</h3><p>  Our mission is to provide you with a unique book recommendation  experience. We believe that the joy of reading lies in exploring  new genres, discovering hidden gems, and taking a chance on  books you might not have considered before. That's why we've  created a platform that randomly generates book recommendations  to surprise and delight you.</p></section><section><h3>How It Works</h3><p>  It's simple! Just click the 'Surprise me' button, and our  algorithm will randomly select a book from our extensive  collection(powered by Google Books). You'll receive a brief description of the book,  along with the author's name and other relevant details. Feel  free to explore the recommendation further by clicking on the  provided link to learn more or make a purchase.</p></section>`,
   },
   fr: {
     language: "French",
@@ -75,7 +75,7 @@ const LanDic = {
     contact_submit: "Envoyer",
     home_slogan: `Recommandations de livres aléatoires <br />     Brisez le cocon d'information. Voyez le monde en entier.`,
     home_slogan_p:
-      "Choisissez un livre aléatoire parmi des millions de livres du monde entier(Prise en charge multilingue, choisissez celle que vous préférez.).",
+      "Choisissez un livre aléatoire parmi des millions de livres du monde entier(Prise en charge multilingue, choisissez celle que vous préférez.).<br />Ne sais jamais ce qui pourrait apparaître.",
     start_button: "Surprenez-moi",
     coming_button: "À venir...",
     author: "Écrit par",
@@ -126,7 +126,7 @@ const LanDic = {
     home_slogan:
       "Recomendaciones de libros al azar<br/>Rompe el capullo de información. Ve el mundo en su totalidad.",
     home_slogan_p:
-      "Elige un libro al azar entre millones de libros de todo el mundo(Soporte multilingüe, elija el que prefiera.).",
+      "Elige un libro al azar entre millones de libros de todo el mundo(Soporte multilingüe, elija el que prefiera.).<br />Nunca se sabe lo que podría aparecer.",
     start_button: "Sorpréndeme",
     coming_button: "Próximamente...",
     author: "Escrito por",
@@ -178,7 +178,7 @@ const LanDic = {
     contact_submit: "提交",
     home_slogan: "隨機書籍推薦<br/>打破信息繭房，全面了解世界。",
     home_slogan_p:
-      "從全球數百萬本書中為您選擇一本隨機書籍(多國語言支持，選擇您喜歡的語言。)。",
+      "從全球數百萬本書中為您選擇一本隨機書籍(多國語言支持，選擇您喜歡的語言。)。<br />永遠不知道可能會出現什麼。",
     start_button: "讓我驚喜一下",
     coming_button: "即將推出...",
     author: "作者",
@@ -228,7 +228,7 @@ const LanDic = {
     contact_submit: "提交",
     home_slogan: "随机书籍推荐<br/>打破信息茧房。全面了解世界。",
     home_slogan_p:
-      "从全球数百万本书中为您挑选一本随机书籍(多国语言支持，选择您喜欢的语言。)。",
+      "从全球数百万本书中为您挑选一本随机书籍(多国语言支持，选择您喜欢的语言。)。<br />永远不知道什么可能会出现。",
     start_button: "给我惊喜",
     coming_button: "即将推出",
     author: "作者",
@@ -368,7 +368,7 @@ const LanDic = {
     home_slogan:
       "Losowe Rekomendacje Książek<br/>Przełam kokon informacyjny. Zobacz świat w całości.",
     home_slogan_p:
-      "Wybierz losową książkę spośród milionów książek na całym świecie(Obsługa wielu języków, wybierz ten, który wolisz.).",
+      "Wybierz losową książkę spośród milionów książek na całym świecie(Obsługa wielu języków, wybierz ten, który wolisz.).<br />Nigdy nie wiesz, co może się pojawić.",
     start_button: "Zaskocz mnie",
     coming_button: "Wkrótce",
     author: "Autor",
@@ -493,7 +493,7 @@ const LanDic = {
     home_slogan:
       "Zufällige Buchempfehlungen<br/>Durchbrich den Informationskokon. Sieh die Welt in ihrer ganzen Fülle.",
     home_slogan_p:
-      "Wähle ein zufälliges Buch für dich aus Millionen von Büchern auf der ganzen Welt(Multilinguale Unterstützung, wählen Sie die von Ihnen gewünschte Sprache aus.).",
+      "Wähle ein zufälliges Buch für dich aus Millionen von Büchern auf der ganzen Welt(Multilinguale Unterstützung, wählen Sie die von Ihnen gewünschte Sprache aus.).<br />Niemand weiß, was erscheinen könnte.",
     start_button: "Überrasch mich",
     coming_button: "Kommt bald...",
     author: "Verfasst von",
@@ -626,7 +626,7 @@ Es ist ganz einfach! Klicken Sie einfach auf die Schaltfläche "Überrasch mich"
     home_slogan:
       "Recomendações de livros aleatórias<br/>Quebre o casulo de informações. Veja o mundo por completo.",
     home_slogan_p:
-      "Escolha um livro aleatório para você entre milhões de livros em todo o mundo(Suporte multilíngue, escolha o que você preferir.).",
+      "Escolha um livro aleatório para você entre milhões de livros em todo o mundo(Suporte multilíngue, escolha o que você preferir.).<br />Nunca se sabe o que pode aparecer.",
     start_button: "Surpreenda-me",
     coming_button: "Em breve...",
     author: "Autorado por",
@@ -750,7 +750,7 @@ Nossa missão é fornecer a você uma experiência única de recomendação de l
     home_slogan:
       "ランダムな書籍の推薦<br/>インフォメーションコクーンを破る。世界を全面的に見る。",
     home_slogan_p:
-      "世界中の何百万冊もの書籍からあなたにランダムな書籍をお選びします(多言語サポート、お好きな言語をお選びください。)。",
+      "世界中の何百万冊もの書籍からあなたにランダムな書籍をお選びします(多言語サポート、お好きな言語をお選びください。)。<br />永遠何が出てくるかわからない。",
     start_button: "驚かせて！",
     coming_button: "持上がる...",
     author: "著者",

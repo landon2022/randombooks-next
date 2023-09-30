@@ -21,10 +21,7 @@ export default function Index() {
               <hr />
               <br />
 
-              <p>
-                {LanDic[locale].home_slogan_p}
-                <br />
-              </p>
+              <p>{LanDic[locale].home_slogan_p}</p>
 
               <StartSection />
               <br />
