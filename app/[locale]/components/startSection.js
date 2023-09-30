@@ -25,7 +25,7 @@ export default function StartSection() {
     );
     bookPool = [];
 
-    // handleBookRequest(LanDic[locale].language);
+    handleBookRequest(LanDic[locale].language);
   }, [LanDic[locale].language]);
 
   async function handleBookRequest(lan) {
