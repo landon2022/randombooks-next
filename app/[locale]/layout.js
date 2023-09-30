@@ -36,6 +36,14 @@ export default function LocaleLayout({ children, params: { locale } }) {
         />
         <meta charSet="utf-8" />
         <meta name="twitter:card" content="summary"></meta>
+        <meta
+          property="og:title"
+          content="Random Books | Random Book Recommendation. A place to the information cocoon, find hidden gem and enjoy reading"
+        />
+        <meta
+          property="og:description"
+          content="Break the information cocoon and knowledge barrier by random book recommendation. Discover a wide selection of random books on our website. Explore various genres, authors, and topics. Find your next captivating read and dive into the world of literature.  Start your random book journey today!"
+        />
         <link rel="shortcut icon" href="flogo.gif" />
         <link
           rel="alternate"
