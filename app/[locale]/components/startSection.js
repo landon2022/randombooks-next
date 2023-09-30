@@ -43,7 +43,7 @@ export default function StartSection() {
       </button>
     );
 
-    if (bookPool.length < 150) {
+    if (bookPool.length < 380) {
       let language = { language: lan };
       let result = "";
       let response = await fetch("/api/books", {
