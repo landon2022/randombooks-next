@@ -44,7 +44,7 @@ export default function StartSection() {
     );
 
     if (bookPool.length < 380) {
-      let language = { language: lan };
+      let language = { language: lan, locale: locale };
       let result = "";
       let response = await fetch("/api/books", {
         method: "POST",

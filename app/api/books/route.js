@@ -33,12 +33,13 @@ export async function POST(request) {
   const data = await request.json();
   console.log(data);
   const language = data.language;
+  const locale = data.locale;
   const clientIP = request.headers["x-forwarded-for"];
   console.log(clientIP);
   const noEncodedwords = generateRandomWords(language);
   const randomWords = encodeURI(noEncodedwords);
-  const publicUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&maxResults=40`;
-  const apiKeyUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&maxResults=40&key=${process.env.GOOGLE_BOOKS_API_KEY}`;
+  const publicUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40`;
+  const apiKeyUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40&key=${process.env.GOOGLE_BOOKS_API_KEY}`;
 
   // Make API call to external API
   let result = {};
@@ -56,7 +57,7 @@ export async function POST(request) {
           .aggregate([
             {
               $sample: {
-                size: 100,
+                size: 500,
               },
             },
           ])
@@ -70,18 +71,14 @@ export async function POST(request) {
       }
     }
     if (result.items !== undefined) {
-      // let data = result.items.map((item) => ({
-      //   volumeInfo: item.volumeInfo,
-      //   searchInfo: item.searchInfo,
-      // }));
       try {
         await client
           .db("randombooks")
           .collection(language)
           .insertMany(result.items);
-        return NextResponse.json(result);
+        return NextResponse.json(result.items);
       } catch (error) {
-        return NextResponse.json(result);
+        return NextResponse.json(result.items);
       }
     } else {
       return NextResponse.json({ requestAgain: true });
