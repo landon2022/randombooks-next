@@ -76,9 +76,9 @@ export async function POST(request) {
           .db("randombooks")
           .collection(language)
           .insertMany(result.items);
-        return NextResponse.json(result.items);
+        return NextResponse.json(result);
       } catch (error) {
-        return NextResponse.json(result.items);
+        return NextResponse.json(result);
       }
     } else {
       return NextResponse.json({ requestAgain: true });
