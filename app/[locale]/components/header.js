@@ -2,6 +2,7 @@
 import Link from "next-intl/link";
 import LanDic from "../LanDic";
 import { useLocale } from "next-intl";
+import LangSwitcher from "./langSwitcher";
 
 export default function Layout() {
   let locale = useLocale();
@@ -118,7 +119,8 @@ export default function Layout() {
                   <i className="bi bi-globe"></i>
                   {LanDic[locale].native_language}
                 </a>
-                <ul className="dropdown-menu dropdown-menu-end scrollable-menu">
+                <LangSwitcher />
+                {/* <ul className="dropdown-menu dropdown-menu-end scrollable-menu">
                   <li>
                     <Link className="dropdown-item" href="/" locale="en">
                       <i className="flag-united-kingdom flag" />
@@ -177,7 +179,7 @@ export default function Layout() {
                       日本語
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
             </ul>
           </div>

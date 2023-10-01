@@ -84,7 +84,7 @@ export default function Footer() {
   }
 
   return (
-    <div className="footer-container">
+    <div className="footer-container d-flex">
       <div className="container">
         <footer className="pt-4">
           <div className="row">
@@ -152,7 +152,7 @@ export default function Footer() {
             </div>
           </div>
           <hr />
-          <div className="copyright pb-2">
+          <div className="copyright ">
             <p>
               {LanDic[locale].copyright} © {year} {LanDic[locale].brand},{" "}
               {LanDic[locale].reserve_right}.

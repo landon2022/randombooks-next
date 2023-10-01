@@ -1,12 +1,7 @@
-#root {
-  margin: 0;
-  padding: 0;
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-body {
   background-color: white;
   /* background-image: url("../public/home-bg.jpg"); */
   background-repeat: no-repeat;
@@ -201,9 +196,9 @@ img:hover {
 .copyright {
   text-align: center;
 }
-.copyright p {
+/* .copyright p {
   margin-bottom: 0;
-}
+} */
 
 .nav-item-category {
   width: 20% !important;
