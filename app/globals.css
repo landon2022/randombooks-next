@@ -75,6 +75,10 @@ img:hover {
   max-height: 500px;
   overflow-x: hidden;
 }
+.select-item select {
+  background-size: contain !important;
+  background-size: 20px;
+}
 
 .nav-container {
   padding: 0 !important;

@@ -33,10 +33,11 @@ export async function POST(request) {
   const data = await request.json();
   console.log(data);
   const language = data.language;
-  const locale = data.locale;
-  const clientIP = request.headers["x-forwarded-for"];
-  console.log(clientIP);
+  let locale = data.locale;
+  // const clientIP = request.headers["x-forwarded-for"];
+  // console.log(clientIP);
   const noEncodedwords = generateRandomWords(language);
+  console.log(noEncodedwords);
   const randomWords = encodeURI(noEncodedwords);
   const publicUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40`;
   const apiKeyUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40&key=${process.env.GOOGLE_BOOKS_API_KEY}`;

@@ -14,53 +14,53 @@ export async function generateMetadata({ params: { locale } }) {
   };
 }
 
-const locales = ["en", "fr", "es", "zh_tw", "zh_cn", "pl", "de", "pt", "ja"];
-// const locales = [
-//   "en",
-//   "fr",
-//   "es",
-//   "zh_tw",
-//   "zh_cn",
-//   "pl",
-//   "de",
-//   "pt",
-//   "ja",
-//   "af",
-//   "ar",
-//   "bg",
-//   "bn",
-//   "ca",
-//   "cs",
-//   "da",
-//   "el",
-//   "eo",
-//   "et",
-//   "fa",
-//   "fi",
-//   "he",
-//   "hi",
-//   "hu",
-//   "id",
-//   "it",
-//   "kk",
-//   "ko",
-//   "lt",
-//   "lv",
-//   "mk",
-//   "nl",
-//   "no",
-//   "ro",
-//   "ru",
-//   "sk",
-//   "sl",
-//   "sq",
-//   "sr",
-//   "sv",
-//   "th",
-//   "tr",
-//   "uk",
-//   "vi",
-// ];
+// const locales = ["en", "fr", "es", "zh_tw", "zh_cn", "pl", "de", "pt", "ja"];
+const locales = [
+  "en",
+  "fr",
+  "es",
+  "tw",
+  "cn",
+  "pl",
+  "de",
+  "pt",
+  "ja",
+  "af",
+  "ar",
+  "bg",
+  "bn",
+  "ca",
+  "cs",
+  "da",
+  "el",
+  "eo",
+  "et",
+  "fa",
+  "fi",
+  "he",
+  "hi",
+  "hu",
+  "id",
+  "it",
+  "kk",
+  "ko",
+  "lt",
+  "lv",
+  "mk",
+  "nl",
+  "no",
+  "ro",
+  "ru",
+  "sk",
+  "sl",
+  "sq",
+  "sr",
+  "sv",
+  "th",
+  "tr",
+  "uk",
+  "vi",
+];
 
 export default function LocaleLayout({ children, params: { locale } }) {
   // Validate that the incoming `locale` parameter is valid
@@ -70,6 +70,27 @@ export default function LocaleLayout({ children, params: { locale } }) {
   return (
     <html lang={locale}>
       <head>
+        {locales.map((locale) => {
+          if (locale === "en") {
+            return (
+              <link
+                key={locale}
+                rel="alternate"
+                hrefLang={locale}
+                href="https://www.randombooks.xyz"
+              />
+            );
+          } else {
+            return (
+              <link
+                key={locale}
+                rel="alternate"
+                hrefLang={locale}
+                href={`https://www.randombooks.xyz/${locale}`}
+              />
+            );
+          }
+        })}
         <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_KEY}`}
@@ -92,51 +113,6 @@ export default function LocaleLayout({ children, params: { locale } }) {
         />
         <meta property="og:image" content="https://i.ibb.co/RcNWYp3/icon.gif" />
         <link rel="shortcut icon" href="flogo.gif" />
-        <link
-          rel="alternate"
-          hrefLang="en"
-          href="https://www.randombooks.xyz"
-        />
-        <link
-          rel="alternate"
-          hrefLang="fr"
-          href="https://www.randombooks.xyz/fr"
-        />
-        <link
-          rel="alternate"
-          hrefLang="es"
-          href="https://www.randombooks.xyz/es"
-        />
-        <link
-          rel="alternate"
-          hrefLang="zh_tw"
-          href="https://www.randombooks.xyz/zh_tw"
-        />
-        <link
-          rel="alternate"
-          hrefLang="zh_cn"
-          href="https://www.randombooks.xyz/zh_cn"
-        />
-        <link
-          rel="alternate"
-          hrefLang="pl"
-          href="https://www.randombooks.xyz/pl"
-        />
-        <link
-          rel="alternate"
-          hrefLang="de"
-          href="https://www.randombooks.xyz/de"
-        />
-        <link
-          rel="alternate"
-          hrefLang="pt"
-          href="https://www.randombooks.xyz/pt"
-        />
-        <link
-          rel="alternate"
-          hrefLang="ja"
-          href="https://www.randombooks.xyz/ja"
-        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
 
