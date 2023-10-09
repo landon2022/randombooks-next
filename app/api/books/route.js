@@ -34,19 +34,23 @@ export async function POST(request) {
   console.log(data);
   const language = data.language;
   let locale = data.locale;
-  let wildMode = false;
+  let strictMode = data.strict;
+  console.log(strictMode);
   // const clientIP = request.headers["x-forwarded-for"];
   // console.log(clientIP);
   const noEncodedwords = generateRandomWords(language);
   console.log(noEncodedwords);
   const randomWords = encodeURI(noEncodedwords);
-  const publicUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40&${
-    wildMode ? null : "filter=ebooks"
+  const publicUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40${
+    strictMode ? "&filter=ebooks" : ""
+  }${strictMode ? "&printType=books" : ""}`;
+  console.log(publicUrl);
+  const apiKeyUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40${
+    strictMode ? "&filter=ebooks" : ""
+  }${strictMode ? "&printType=books" : ""}&key=${
+    process.env.GOOGLE_BOOKS_API_KEY
   }`;
-  const apiKeyUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40&${
-    wildMode ? null : "filter=ebooks"
-  }&key=${process.env.GOOGLE_BOOKS_API_KEY}`;
-
+  console.log(apiKeyUrl);
   // Make API call to external API
   let result = {};
   try {

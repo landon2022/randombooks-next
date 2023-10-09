@@ -28,7 +28,6 @@ export default function Index() {
               ></p>
 
               <StartSection />
-              <br />
             </div>
             <br />
             <div

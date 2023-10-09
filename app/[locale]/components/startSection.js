@@ -10,6 +10,7 @@ export default function StartSection() {
   let locale = useLocale();
   const [book, setBook] = useState();
   const [button, setButton] = useState();
+  const [strict, setStrict] = useState();
   let bookPool = [];
   let history = [];
   const MySwal = withReactContent(Swal);
@@ -24,9 +25,25 @@ export default function StartSection() {
       </button>
     );
     bookPool = [];
-
+    const tooltipTriggerList = document.querySelectorAll(
+      '[data-bs-toggle="tooltip"]'
+    );
+    const tooltipList = [...tooltipTriggerList].map(
+      (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+    );
     handleBookRequest(LanDic[locale].language);
   }, [LanDic[locale].language]);
+
+  useEffect(() => {
+    setButton(
+      <button
+        className="btn btn-lg btn-danger btn-rounded"
+        onClick={() => handleBookRequest(LanDic[locale].language)}
+      >
+        {LanDic[locale].start_button}
+      </button>
+    );
+  }, [strict]);
 
   async function handleBookRequest(lan) {
     setButton(
@@ -44,7 +61,8 @@ export default function StartSection() {
     );
 
     if (bookPool.length < 380) {
-      let language = { language: lan, locale: locale };
+      let language = { language: lan, locale: locale, strict: strict };
+      console.log(language);
       let result = "";
       let response = await fetch("/api/books", {
         method: "POST",
@@ -87,7 +105,7 @@ export default function StartSection() {
         return;
       }
       const totalBooks = result.items.length;
-      console.log(`result length${totalBooks}`);
+      // console.log(`result length${totalBooks}`);
 
       // Generate a random index within the range of available English books
       const randomIndex = Math.floor(Math.random() * totalBooks);
@@ -201,7 +219,27 @@ export default function StartSection() {
 
   return (
     <div className="start-section">
-      <div>{button}</div>
+      <div>
+        {button}{" "}
+        <div className="form-check pt-1 d-flex justify-content-center">
+          <input
+            className="form-check-input me-1"
+            type="checkbox"
+            id="wildCheckbox"
+            value="wildCheckbox"
+            onClick={(e) => setStrict(e.target.checked)}
+          />
+          <label className="form-check-label ms-0" htmlFor="wildCheckbox">
+            Strict Mode
+          </label>
+          <i
+            className="bi bi-info-square ms-1 me-1 "
+            data-bs-toggle="tooltip"
+            data-bs-placement="bottom"
+            data-bs-title="Only Books"
+          ></i>
+        </div>
+      </div>
 
       <br />
 

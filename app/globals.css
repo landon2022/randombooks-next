@@ -241,3 +241,7 @@ img:hover {
 .active {
   font-weight: 500;
 }
+
+.form-check-input {
+  border-color: rgb(24, 23, 23) !important;
+}
