@@ -35,12 +35,12 @@ export async function POST(request) {
   const language = data.language;
   let locale = data.locale;
   let strictMode = data.strict;
-  if (locale === "cn") {
-    locale = "zh-CN";
-  }
-  if (locale === "tw") {
-    locale = "zh-TW";
-  }
+  // if (locale === "cn") {
+  //   locale = "zh-CN";
+  // }
+  // if (locale === "tw") {
+  //   locale = "zh-TW";
+  // }
   console.log(strictMode);
   // const clientIP = request.headers["x-forwarded-for"];
   // console.log(clientIP);
@@ -48,12 +48,14 @@ export async function POST(request) {
   console.log(noEncodedwords);
   const randomWords = encodeURI(noEncodedwords);
   const publicUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40${
-    strictMode ? "&printType=books" : ""
-  }`;
+    strictMode ? "&filter=ebooks" : ""
+  }${strictMode ? "&printType=books" : ""}`;
   console.log(publicUrl);
   const apiKeyUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40${
-    strictMode ? "&printType=books" : ""
-  }&key=${process.env.GOOGLE_BOOKS_API_KEY}`;
+    strictMode ? "&filter=ebooks" : ""
+  }${strictMode ? "&printType=books" : ""}&key=${
+    process.env.GOOGLE_BOOKS_API_KEY
+  }`;
   console.log(apiKeyUrl);
   // Make API call to external API
   let result = {};
