@@ -35,6 +35,12 @@ export async function POST(request) {
   const language = data.language;
   let locale = data.locale;
   let strictMode = data.strict;
+  if (locale === "cn") {
+    locale = "zh-CN";
+  }
+  if (locale === "tw") {
+    locale = "zh-TW";
+  }
   console.log(strictMode);
   // const clientIP = request.headers["x-forwarded-for"];
   // console.log(clientIP);

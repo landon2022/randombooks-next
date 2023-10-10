@@ -54,7 +54,7 @@ const LanDic = {
     language: "Albanian",
     native_language: "Shqip",
     html_title:
-      "Libra Rastësor | Faqe interneti për Rekomandime të Librave Rastësor. Një vend për të thyer kokon e informacionit, gjetjen e gurit të fshehur dhe të kënaqesh duke lexuar",
+      "Libra Rastësishëm | Faqe interneti me Rekomandime të Rastësishme për Libra. Një vend për të thyer kokon e informacionit, gjetjen e gurit të fshehur dhe të kënaqesh duke lexuar",
     html_mata_description:
       "Thyej kokën e informacionit dhe barrierën e njohurisë me rekomandime të librave rastësor. Zbuloni një zgjedhje të gjerë të librave të rastësorëve në faqen tonë. Eksploroni zhanre të ndryshme, autorë dhe tema. Gjeni leximin tuaj të ardhshëm të kapërcyer dhe zhyteni në botën e letërsisë. Vizitoni faqen tonë sot për të filluar udhëtimin tuaj të librave të rastësorëve!",
     brand: "Random Books",
@@ -105,7 +105,7 @@ const LanDic = {
     language: "Arabic",
     native_language: "العربية",
     html_title:
-      "كتب عشوائية | موقع عشوائي لتوصية الكتب. مكان للغوص في المعلومات، واكتشاف الجوهرة المخفية والاستمتاع بالقراءة",
+      "كتب عشوائية | موقع توصيات كتب عشوائية. مكان للغوص في المعلومات، واكتشاف الجوهرة المخفية والاستمتاع بالقراءة.",
     html_mata_description:
       "اكسر اليرقة المعلوماتية وحاجز المعرفة من خلال توصية كتاب عشوائي. اكتشف مجموعة واسعة من الكتب العشوائية على موقعنا. استكشف مختلف الأنواع والمؤلفين والمواضيع. ابحث عن قراءتك الجذابة التالية وانغمس في عالم الأدب. قم بزيارة موقعنا اليوم لبدء رحلتك مع الكتب العشوائية!",
     brand: "Random Books",
@@ -155,7 +155,7 @@ const LanDic = {
     language: "Bengali",
     native_language: "বাংলা",
     html_title:
-      "এলোমেলো বইগুলি | একটি যেখানে তথ্য কোকোনের বিচ্ছিন্ন জগতে পড়ার সুযোগ পাবেন এবং পড়ার মজা নিন",
+      "এলোমেলো বইসমূহ | এলোমেলো বই পরামর্শ ওয়েবসাইট। তথ্যের কোকোনে একটি স্থান, গোপন জড়িত মূল্যবান বই খুঁজে পান এবং পড়ার আনন্দ উপভোগ করুন।",
     html_mata_description:
       "যেখানে তথ্য কোকোন এবং জ্ঞানের বাধা ভেঙ্গে যান এবং যেখানে একটি বিশাল সংখ্যক যেকোনো বই পরামর্শ পাবেন। আমাদের ওয়েবসাইটে যেকোনো বিভিন্ন ধরণের বই, লেখক এবং বিষয় আবিষ্কার করুন। আপনার পরবর্তী আকর্ষণীয় পড়াশোনা খুঁজে নিন এবং সাহিত্যের বিশ্বে ডাইভ করুন। আজই আমাদের ওয়েবসাইট দেখতে যান এবং আপনার যেকোনো যেকোনো বই পথ শুরু করুন!",
     brand: "Random Books",
@@ -205,7 +205,7 @@ const LanDic = {
     language: "Bulgarian",
     native_language: "български език",
     html_title:
-      "Случайни книги | Уебсайт за препоръки на случайни книги. Място за информационен кокон, откриване на скрити съкровища и наслаждаване на четенето",
+      "Случайни книги | Уебсайт за случайни препоръки за книги. Място за информационен кокон, откриване на скрити съкровища и наслаждаване на четенето.",
     html_mata_description:
       "Пробийте информационния кокон и бариерата на знанието чрез препоръки за случайни книги. Открийте голямо разнообразие от случайни книги на нашия уебсайт. Изследвайте различни жанрове, автори и теми. Намерете следващата си завладяваща книга и потопете се в света на литературата. Посетете нашия уебсайт днес, за да започнете вашето пътуване със случайни книги!",
     brand: "Random Books",
@@ -256,7 +256,7 @@ const LanDic = {
     language: "Catalan",
     native_language: "Català",
     html_title:
-      "Llibres Aleatoris | Lloc web de recomanació de llibres aleatoris. Un lloc per sortir del caparàs de la informació, trobar joies amagades i gaudir de la lectura",
+      "Llibres Aleatoris | Lloc web de Recomanacions de Llibres Aleatoris. Un lloc per sortir del caparàs de la informació, trobar joies amagades i gaudir de la lectura",
     html_mata_description:
       "Trencar el caparàs de la informació i la barrera del coneixement mitjançant la recomanació de llibres aleatoris. Descobreix una àmplia selecció de llibres aleatoris al nostre lloc web. Explora diferents gèneres, autors i temes. Troba la teva propera lectura captivadora i endinsa't en el món de la literatura. Visita el nostre lloc web avui mateix per començar el teu viatge de llibres aleatoris!",
     brand: "Random Books",
@@ -354,7 +354,8 @@ const LanDic = {
   tw: {
     language: "繁體中文",
     native_language: "繁體中文",
-    html_title: "隨機書籍 | 隨機書籍推薦網站。一個尋找隱藏寶石和享受閱讀的地方",
+    html_title:
+      "隨機書籍 | 隨機書籍推薦網站。一個打破信息茧房，尋找隱藏寶石和享受閱讀的地方",
     html_mata_description:
       "通過隨機書籍推薦打破信息茧房和知識障礙。在我們的網站上發現各種隨機書籍。探索各種流派、作者和主題。找到你下一本迷人的閱讀，並深入文學的世界。立即訪問我們的網站，開始你的隨機書籍之旅！",
     brand: "Random Books",
@@ -402,7 +403,7 @@ const LanDic = {
     language: "Czech",
     native_language: "Čeština",
     html_title:
-      "Náhodné knihy | Webová stránka s náhodnými knihami. Místo pro informační kokon, najděte skrytý poklad a užijte si čtení",
+      "Náhodné knihy | Webová stránka s náhodnými knižními doporučeními. Místo pro informační kokon, najděte skrytý poklad a užijte si čtení",
     html_mata_description:
       "Překonejte informační kokon a bariéru znalostí pomocí náhodného doporučení knih. Objevte široký výběr náhodných knih na naší webové stránce. Prozkoumejte různé žánry, autory a témata. Najděte své další poutavé čtení a ponořte se do světa literatury. Navštivte naši webovou stránku ještě dnes a začněte svou náhodnou knižní cestu!",
     brand: "Random Books",
@@ -453,7 +454,7 @@ const LanDic = {
     language: "Danish",
     native_language: "Dansk",
     html_title:
-      "Tilfældige Bøger | Tilfældig Boganbefalingsside. Et sted at bryde informationskokonen, finde skjulte perler og nyde læsning",
+      "Tilfældige Bøger | Tilfældig Boganbefalingshjemmeside. Et sted at bryde informationskokonen, finde skjulte perler og nyde læsning",
     html_mata_description:
       "Bryd informationskokonen og vidensbarrieren med tilfældige boganbefalinger. Opdag et bredt udvalg af tilfældige bøger på vores hjemmeside. Udforsk forskellige genrer, forfattere og emner. Find din næste fængslende læsning og dyk ned i litteraturens verden. Besøg vores hjemmeside i dag for at starte din tilfældige bogrejse!",
     brand: "Random Books",
@@ -503,7 +504,7 @@ const LanDic = {
     language: "Dutch",
     native_language: "Nederlands",
     html_title:
-      "Willekeurige Boeken | Willekeurige Boekaanbevelingswebsite. Een plek om uit de informatiecocoon te breken, verborgen parels te vinden en van lezen te genieten",
+      "Willekeurige Boeken | Willekeurige Boekaanbevelingen Website. Een plek om uit de informatiecocoon te breken, verborgen parels te vinden en van lezen te genieten",
     html_mata_description:
       "Door willekeurige boekaanbevelingen te volgen, doorbreek je de informatiecocoon en kennisbarrière. Ontdek een breed scala aan willekeurige boeken op onze website. Verken verschillende genres, auteurs en onderwerpen. Vind je volgende boeiende leeservaring en duik in de wereld van de literatuur. Bezoek vandaag nog onze website om je willekeurige boekenreis te beginnen!",
     brand: "Random Books",
@@ -605,7 +606,7 @@ const LanDic = {
     language: "Esperanto",
     native_language: "Esperanto",
     html_title:
-      "Aleatoraj Libroj | TTT-ejo por aleatoraj libro-rekomendoj. Loko por la informa kokono, trovi kaŝitajn juvelojn kaj ĝui legadon",
+      "Hazardaj Libroj | Hazarda Libro-Rekomendado-Retejo. Loko por la informa kokono, trovi kaŝitajn juvelojn kaj ĝui legadon",
     html_mata_description:
       "Rompu la informan kokonon kaj scio-barieron per aleatoraj libro-rekomendoj. Malkovru larĝan elekton de aleatoraj libroj sur nia TTT-ejo. Esploru diversajn ĝenrojn, aŭtorojn kaj temojn. Trovu vian sekvan kapta legaĵon kaj mergu en la mondo de literaturo. Vizitu nian TTT-ejon hodiaŭ por komenci vian aleatoran libro-vojaĝon!",
     brand: "Random Books",
@@ -655,7 +656,7 @@ const LanDic = {
     language: "Estonian",
     native_language: "Eesti",
     html_title:
-      "Juhuslikud raamatud | Juhusliku raamatusoovituste veebisait. Koht, kus leida peidetud pärl ja nautida lugemist",
+      "Juhuslikud raamatud | Juhuslike raamatusoovituste veebisait. Koht, kus leida peidetud pärl ja nautida lugemist",
     html_mata_description:
       "Murra teabe kokkutõmbumine ja teadmiste tõke juhusliku raamatusoovituse abil. Avasta meie veebisaidilt lai valik juhuslikke raamatuid. Uuri erinevaid žanre, autoreid ja teemasid. Leidke oma järgmine haarav lugemine ja sukelduge kirjanduse maailma. Külastage meie veebisaiti täna, et alustada oma juhusliku raamatu teekonda!",
     brand: "Random Books",
@@ -705,7 +706,7 @@ const LanDic = {
     language: "Farsi",
     native_language: "فارسی",
     html_title:
-      "کتاب‌های تصادفی | وبسایت پیشنهاد کتاب تصادفی. جایی برای پرورش اطلاعات، پیدا کردن جواهر پنهان و لذت بردن از خواندن",
+      "کتاب‌های تصادفی | وبسایت توصیه‌های تصادفی کتاب. یک مکان برای پنهان کردن اطلاعات، پیدا کردن جواهرات پنهان و لذت بردن از خواندن",
     html_mata_description:
       "با پیشنهاد کتاب تصادفی، پوسته اطلاعات و مانع دانش را بشکنید. در وبسایت ما انواع کتاب‌های تصادفی را کشف کنید. انواع ژانرها، نویسندگان و موضوعات را بررسی کنید. کتاب جذاب بعدی خود را پیدا کنید و به دنیای ادبیات فروپاشی کنید. امروز به وبسایت ما سر بزنید تا سفر کتاب تصادفی خود را شروع کنید!",
     brand: "Random Books",
@@ -755,7 +756,7 @@ const LanDic = {
     language: "Finnish",
     native_language: "Suomi",
     html_title:
-      "Satunnaiset kirjat | Satunnainen kirjasuositussivusto. Paikka tietokokonaisuuden rikkomiseen, piilotetun aarteen löytämiseen ja lukemisen nauttimiseen",
+      "Satunnaiset kirjat | Satunnaiset kirjasuositukset verkkosivusto. Paikka tietokokonaisuuden rikkomiseen, piilotetun aarteen löytämiseen ja lukemisen nauttimiseen",
     html_mata_description:
       "Riko tietokokonaisuuden ja tiedon este satunnaisella kirjasuosituksella. Tutustu laajaan valikoimaan satunnaisia kirjoja verkkosivustollamme. Tutki erilaisia genrejä, kirjailijoita ja aiheita. Löydä seuraava kiehtova lukukokemus ja sukella kirjallisuuden maailmaan. Vieraile verkkosivustollamme tänään aloittaaksesi satunnaisen kirjamatkasi!",
     brand: "Random Books",
@@ -805,7 +806,7 @@ const LanDic = {
     language: "French",
     native_language: "Français",
     html_title:
-      "Livres aléatoires | Site de recommandation de livres aléatoires. Un endroit pour sortir de sa zone de confort, trouver des pépites cachées et apprécier la lecture",
+      "Livres aléatoires | Site de recommandations de livres aléatoires. Un endroit pour sortir de sa zone de confort, trouver des pépites cachées et apprécier la lecture",
     html_mata_description:
       "Briser la barrière de l'information et de la connaissance grâce à des recommandations de livres aléatoires. Découvrez une large sélection de livres aléatoires sur notre site web. Explorez différents genres, auteurs et sujets. Trouvez votre prochaine lecture captivante et plongez dans le monde de la littérature. Visitez notre site web dès aujourd'hui pour commencer votre voyage littéraire aléatoire!",
     brand: "Random Books",
@@ -856,7 +857,7 @@ const LanDic = {
     language: "German",
     native_language: "Deutsch",
     html_title:
-      "Zufällige Bücher | Zufällige Buchempfehlungs-Website. Ein Ort, um aus der Informationsblase auszubrechen, versteckte Schätze zu finden und das Lesen zu genießen",
+      "Zufällige Bücher | Zufällige Buchempfehlungen Website. Ein Ort, um aus der Informationsblase auszubrechen, versteckte Schätze zu finden und das Lesen zu genießen",
     html_mata_description:
       "Brechen Sie die Informationsblase und die Wissensbarriere durch zufällige Buchempfehlungen. Entdecken Sie eine große Auswahl an zufälligen Büchern auf unserer Website. Erkunden Sie verschiedene Genres, Autoren und Themen. Finden Sie Ihre nächste fesselnde Lektüre und tauchen Sie ein in die Welt der Literatur. Besuchen Sie noch heute unsere Website, um Ihre zufällige Buchreise zu beginnen!",
     brand: "Random Books",
@@ -907,7 +908,7 @@ const LanDic = {
     language: "Greek",
     native_language: "Ελληνική",
     html_title:
-      "Τυχαία Βιβλία | Ιστότοπος Προτάσεων Τυχαίων Βιβλίων. Ένας χώρος για να αποδράσετε από την πληροφοριακή κουκούλα, να βρείτε κρυμμένα διαμάντια και να απολαύσετε την ανάγνωση",
+      "Τυχαία Βιβλία | Ιστότοπος Τυχαίων Συστάσεων Βιβλίων. Ένας χώρος για να αποδράσετε από την πληροφοριακή κουκούλα, να βρείτε κρυμμένα διαμάντια και να απολαύσετε την ανάγνωση",
     html_mata_description:
       "Καταρρίψτε την πληροφοριακή κουκούλα και το φράγμα της γνώσης με την τυχαία πρόταση βιβλίου. Ανακαλύψτε μια μεγάλη ποικιλία από τυχαία βιβλία στον ιστότοπό μας. Εξερευνήστε διάφορα είδη, συγγραφείς και θέματα. Βρείτε την επόμενη σας συναρπαστική ανάγνωση και βουτήξτε στον κόσμο της λογοτεχνίας. Επισκεφθείτε τον ιστότοπό μας σήμερα για να ξεκινήσετε το ταξίδι σας με τυχαία βιβλία!",
     brand: "Random Books",
@@ -958,7 +959,7 @@ const LanDic = {
     language: "Hebrew",
     native_language: "עברית",
     html_title:
-      "ספרים אקראיים | אתר להמלצות ספרים אקראיים. מקום לפתח את המוח, למצוא אוצרות נסתרים וליהנות מקריאה",
+      "ספרים אקראיים | אתר המלצות ספרים אקראיים. מקום לצאצאת המידע, למצוא אבן חן נסתרת וליהנות מקריאה.",
     html_mata_description:
       "שבר את המוח המידעי והמחסום הידע באמצעות המלצות ספרים אקראיים. גלה מבחר רחב של ספרים אקראיים באתר שלנו. חקור ז'אנרים, סופרים ונושאים שונים. מצא את הקריאה המפתיעה הבאה שלך וצלול לעולם הספרות. בקר באתר שלנו היום כדי להתחיל את המסע שלך עם ספרים אקראיים!",
     brand: "Random Books",
@@ -1007,7 +1008,7 @@ const LanDic = {
     language: "Hindi",
     native_language: "हिन्दी, हिंदी",
     html_title:
-      "रैंडम पुस्तकें | यादृच्छिक पुस्तकें | यादृच्छिक पुस्तक सिफारिश वेबसाइट। जानकारी कोकून तोड़ें, छिपे हुए रत्न खोजें और पढ़ने का आनंद लें",
+      "रैंडम बुक्स | रैंडम बुक रेकमेंडेशन्स वेबसाइट। जानकारी कोकून के लिए एक स्थान, छिपे हुए रत्न ढूंढ़ें और पढ़ने का आनंद लें।",
     html_mata_description:
       "यादृच्छिक पुस्तक सिफारिश द्वारा जानकारी कोकून और ज्ञान की बाधा को तोड़ें। हमारी वेबसाइट पर यादृच्छिक पुस्तकों का एक विस्तृत चयन खोजें। विभिन्न शैलियों, लेखकों और विषयों का अन्वेषण करें। अपनी अगली मोहक पढ़ाई खोजें और साहित्य की दुनिया में डूबें। अपनी यादृच्छिक पुस्तक यात्रा शुरू करने के लिए आज ही हमारी वेबसाइट पर जाएं!",
     brand: "Random Books",
@@ -1058,7 +1059,7 @@ const LanDic = {
     language: "Hungarian",
     native_language: "Magyar",
     html_title:
-      "Véletlenszerű Könyvek | Véletlenszerű Könyvajánló Weboldal. Egy hely az információs bábában, a rejtett kincsek felfedezéséhez és az olvasás élvezetéhez",
+      "Véletlen Könyvek | Véletlen Könyvajánló Weboldal. Egy hely az információs bábában, a rejtett kincsek felfedezéséhez és az olvasás élvezetéhez",
     html_mata_description:
       "Törjük át az információs bábát és a tudáshatárt a véletlenszerű könyvajánlással. Fedezzen fel egy széles választékú véletlenszerű könyvet weboldalunkon. Fedezze fel a különböző műfajokat, szerzőket és témákat. Találja meg következő lebilincselő olvasmányát és merüljön el a irodalom világában. Látogasson el weboldalunkra ma, hogy elkezdje véletlenszerű könyves utazását!",
     brand: "Random Books",
@@ -1159,7 +1160,7 @@ const LanDic = {
     language: "Italian",
     native_language: "Italiano",
     html_title:
-      "Libri Casuali | Sito web di raccomandazioni casuali di libri. Un luogo per uscire dal bozzolo dell'informazione, trovare gemme nascoste e godersi la lettura",
+      "Libri Casuali | Sito Web di Raccomandazioni di Libri Casuali. Un luogo per uscire dal bozzolo dell'informazione, trovare gemme nascoste e godersi la lettura",
     html_mata_description:
       "Rompi il bozzolo dell'informazione e la barriera della conoscenza con una raccomandazione casuale di libri. Scopri una vasta selezione di libri casuali sul nostro sito web. Esplora vari generi, autori e argomenti. Trova la tua prossima lettura avvincente e immergiti nel mondo della letteratura. Visita il nostro sito web oggi stesso per iniziare il tuo viaggio di libri casuali!",
     brand: "Random Books",
@@ -1260,7 +1261,7 @@ const LanDic = {
     language: "Kazakh",
     native_language: "Қазақ тілі",
     html_title:
-      "Таңдалмайтын Кітаптар | Кездейсоқ Кітап Тапсырмаларын Қосу Веб-сайты. Ақпарат коконды жасау, жасырын жасыру және оқушыларды қуанттылықпен танысу орны",
+      "Таңдалмайтын Кітаптар | Таңдаулы Кітапты ұсынатын Веб-сайт. Ақпарат коконды жасау, жасырын жасыру және оқушыларды қуанттылықпен танысу орны",
     html_mata_description:
       "Ақпараттың кокондығын және білім барьерін рандомды кітап тапсырысы арқылы жасау. Біздің веб-сайтта рандомды кітаптардың көбейтілген таңдауын табыңыз. Жанрлар, авторлар және тақырыптарды танысу. Келесі қызықтырылған оқу үшін жаңа кітапты табыңыз және өзіңізді өте кітаптардың әлеміне түскеніңізді табыңыз. Біздің веб-сайтқа кіріп, рандомды кітап жолауыңызды бастау үшін бүгінгі күнге келіңіз!",
     brand: "Random Books",
@@ -1360,7 +1361,7 @@ const LanDic = {
     language: "Latvian",
     native_language: "Latviešu",
     html_title:
-      "Nejauši grāmatas | Random Book Recommendation Website. Vieta informācijas kokonam, atrast slēpto dārgakmeni un baudīt lasīšanu",
+      "Nejauši grāmatas | Nejaušu grāmatu ieteikumu vietne. Vieta informācijas kokonam, atrast slēpto dārgakmeni un baudīt lasīšanu",
     html_mata_description:
       "Izlauzieties no informācijas kokona un zināšanu barjeras, izmantojot nejaušu grāmatu ieteikumu. Atklājiet plašu nejaušu grāmatu izvēli mūsu vietnē. Izklaustiet dažādas žanrus, autorus un tēmas. Atrastiet nākamo aizraujošo lasāmvielu un iegrimstiet literatūras pasaulē. Apmeklējiet mūsu vietni jau šodien, lai sāktu savu nejaušo grāmatu ceļojumu!",
     brand: "Random Books",
@@ -1410,7 +1411,7 @@ const LanDic = {
     language: "Lithuanian",
     native_language: "Lietuvių",
     html_title:
-      "Atsitiktiniai knygų pasiūlymai | Atsitiktinės knygų rekomendacijos. Vieta informacijos kokonui perplėšti, rasti paslėptą perlą ir mėgautis skaitymu",
+      "Atsitiktiniai knygų | Atsitiktiniai knygų rekomendacijų tinklalapis. Vieta informacijos kokonui perplėšti, rasti paslėptą perlą ir mėgautis skaitymu",
     html_mata_description:
       "Perplėškite informacijos kokoną ir žinių barjerą atsitiktinėmis knygų rekomendacijomis. Mūsų svetainėje atraskite įvairių žanrų, autorius ir temas. Raskite savo kitą įdomų skaitymą ir panardinkite į literatūros pasaulį. Aplankykite mūsų svetainę ir pradėkite savo atsitiktinės knygos kelionę!",
     brand: "Random Books",
@@ -1459,7 +1460,7 @@ const LanDic = {
     language: "Macedonian",
     native_language: "Македонски",
     html_title:
-      "Случајни Книги | Веб страница за случајни препораки за книги. Место за информативен кокон, откривање на скриени бисери и уживање во читањето",
+      "Случајни Книги | Случајни Препораки за Книги Веб-страница. Место за информативен кокон, откривање на скриени бисери и уживање во читањето",
     html_mata_description:
       "Прекинете го информативниот кокон и бариерата на знаењето со случајни препораки за книги. Откријте голем избор на случајни книги на нашата веб страница. Истражете различни жанрови, автори и теми. Пронајдете ја вашата следна зафатничка книга и заронете во светот на литературата. Посетете ја нашата веб страница денес за да започнете со вашето случајно патување со книги!",
     brand: "Random Books",
@@ -1510,7 +1511,7 @@ const LanDic = {
     language: "Norwegian",
     native_language: "Norsk",
     html_title:
-      "Tilfeldige Bøker | Tilfeldig Bokanbefaling Nettsted. Et sted for informasjonskokongen, finn skjulte skatter og nyt lesing",
+      "Tilfeldige Bøker | Tilfeldig Bokanbefalingsnettsted. Et sted for informasjonskokongen, finn skjulte skatter og nyt lesing",
     html_mata_description:
       "Bryt informasjonskokongen og kunnskapssperringen ved tilfeldig bokanbefaling. Oppdag et bredt utvalg tilfeldige bøker på nettstedet vårt. Utforsk ulike sjangre, forfattere og emner. Finn din neste fengslende lesning og dykk ned i litteraturens verden. Besøk nettstedet vårt i dag for å starte din tilfeldige bokreise!",
     brand: "Random Books",
@@ -1560,7 +1561,7 @@ const LanDic = {
     language: "Polish",
     native_language: "Polski",
     html_title:
-      "Losowe Książki | Strona z losowymi rekomendacjami książek. Miejsce, gdzie można znaleźć ukryte perełki i cieszyć się czytaniem",
+      "Losowe Książki | Strona z Losowymi Rekomendacjami Książek. Miejsce, gdzie można znaleźć ukryte perełki i cieszyć się czytaniem",
     html_mata_description:
       "Przełam barierę informacyjną i wiedzy dzięki losowym rekomendacjom książek. Odkryj szeroki wybór losowych książek na naszej stronie internetowej. Przeglądaj różne gatunki, autorów i tematy. Znajdź swoje następne wciągające czytanie i zanurz się w świat literatury. Odwiedź naszą stronę internetową już dziś, aby rozpocząć swoją losową podróż książkową!",
     brand: "Random Books",
@@ -1611,7 +1612,7 @@ const LanDic = {
     language: "Portuguese",
     native_language: "Português",
     html_title:
-      "Livros Aleatórios | Site de Recomendação de Livros Aleatórios. Um lugar para sair da bolha de informação, encontrar joias escondidas e desfrutar da leitura",
+      "Livros Aleatórios | Site de Recomendações de Livros Aleatórios. Um lugar para sair da bolha de informação, encontrar joias escondidas e desfrutar da leitura",
     html_mata_description:
       "Quebre a bolha de informação e a barreira do conhecimento com recomendações aleatórias de livros. Descubra uma ampla seleção de livros aleatórios em nosso site. Explore diversos gêneros, autores e temas. Encontre sua próxima leitura cativante e mergulhe no mundo da literatura. Visite nosso site hoje mesmo para começar sua jornada de livros aleatórios!",
     brand: "Random Books",
@@ -1814,7 +1815,7 @@ const LanDic = {
     language: "Slovak",
     native_language: "Slovenčina",
     html_title:
-      "Náhodné knihy | Webová stránka s náhodnými knihami. Miesto pre informačný kokon, nájdi skrytý klenot a uži si čítanie",
+      "Náhodné knihy | Webová stránka s náhodnými knižnými odporúčaniami. Miesto pre informačný kokon, nájdi skrytý klenot a uži si čítanie",
     html_mata_description:
       "Prekonaj informačný kokon a prekážky vedomostí pomocou náhodného odporúčania kníh. Objav široký výber náhodných kníh na našej webovej stránke. Preskúmaj rôzne žánre, autorov a témy. Nájdi svoje ďalšie fascinujúce čítanie a ponorte sa do sveta literatúry. Navštív našu webovú stránku ešte dnes a začni svoju náhodnú knižnú cestu!",
     brand: "Random Books",
@@ -1865,7 +1866,7 @@ const LanDic = {
     language: "Slovenian",
     native_language: "Slovenščina",
     html_title:
-      "Naključne knjige | Spletna stran za naključne knjižne priporočila. Kraj za informacijski kokon, odkrivanje skritih draguljev in uživanje v branju",
+      "Naključne knjige | Spletna stran naključnih priporočil knjig. Kraj za informacijski kokon, odkrivanje skritih draguljev in uživanje v branju",
     html_mata_description:
       "Prekinite informacijski kokon in oviro znanja z naključnim knjižnim priporočilom. Odkrijte širok izbor naključnih knjig na naši spletni strani. Raziščite različne žanre, avtorje in teme. Najdite svoje naslednje zanimivo branje in se potopite v svet literature. Obiščite našo spletno stran danes, da začnete svoje naključno knjižno potovanje!",
     brand: "Random Books",
@@ -1916,7 +1917,7 @@ const LanDic = {
     language: "Spanish",
     native_language: "Español",
     html_title:
-      "Libros Aleatorios | Sitio web de recomendaciones de libros aleatorios. Un lugar para salir del capullo de información, encontrar joyas ocultas y disfrutar de la lectura",
+      "Libros Aleatorios | Sitio web de Recomendaciones de Libros Aleatorios. Un lugar para salir del capullo de información, encontrar joyas ocultas y disfrutar de la lectura",
     html_mata_description:
       "Rompe el capullo de información y la barrera del conocimiento con recomendaciones de libros aleatorios. Descubre una amplia selección de libros aleatorios en nuestro sitio web. Explora diferentes géneros, autores y temas. Encuentra tu próxima lectura cautivadora y sumérgete en el mundo de la literatura. ¡Visita nuestro sitio web hoy mismo para comenzar tu viaje de libros aleatorios!",
     brand: "Random Books",
@@ -1968,7 +1969,7 @@ const LanDic = {
     language: "Swedish",
     native_language: "Svenska",
     html_title:
-      "Slumpmässiga böcker | Webbplats för slumpmässiga bokrekommendationer. En plats för informationens kokong, hitta dolda pärlor och njuta av läsning",
+      "Slumpmässiga böcker | Slumpmässig bokrekommendationssida. En plats för informationens kokong, hitta dolda pärlor och njuta av läsning",
     html_mata_description:
       "Bryt informationens kokong och kunskapsspärren genom slumpmässiga bokrekommendationer. Upptäck ett brett urval av slumpmässiga böcker på vår webbplats. Utforska olika genrer, författare och ämnen. Hitta din nästa fängslande läsning och dyk in i litteraturens värld. Besök vår webbplats idag för att påbörja din slumpmässiga bokresa!",
     brand: "Random Books",
@@ -2018,7 +2019,7 @@ const LanDic = {
     language: "Thai",
     native_language: "ไทย",
     html_title:
-      "หนังสือสุ่ม | เว็บไซต์แนะนำหนังสือสุ่ม สถานที่สำหรับค้นหาข้อมูลและความรู้ ค้นพบเรื่องราวที่ซ่อนอยู่และเพลิดเพลินกับการอ่าน",
+      "หนังสือสุ่ม | เว็บไซต์แนะนำหนังสือสุ่ม สถานที่สำหรับเครื่องหมายข้อมูล ค้นหาเพชรซ่อนและเพลิดเพลินกับการอ่าน ",
     html_mata_description:
       "ทำลายเปลือกข้อมูลและอุปสรรคความรู้ด้วยการแนะนำหนังสือสุ่ม ค้นพบหนังสือสุ่มในเว็บไซต์ของเรา สำรวจหลากหลายประเภท ผู้เขียน และหัวข้อ ค้นหาหนังสือที่น่าสนใจถัดไปและลงตัวเข้าสู่โลกของวรรณกรรม  เยี่ยมชมเว็บไซต์ของเราวันนี้เพื่อเริ่มการเดินทางหนังสือสุ่มของคุณ!",
     brand: "Random Books",
@@ -2067,7 +2068,7 @@ const LanDic = {
     language: "Turkish",
     native_language: "Türkçe",
     html_title:
-      "Rastgele Kitaplar | Rastgele Kitap Öneri Web Sitesi. Bilgi kabuğunu kırın, gizli mücevherleri bulun ve okumaktan keyif alın",
+      "Rastgele Kitaplar | Rastgele Kitap Önerileri Websitesi. Bilgi yuvası, gizli mücevherleri bulabileceğiniz ve okumaktan keyif alabileceğiniz bir yer.",
     html_mata_description:
       "Rastgele kitap önerileriyle bilgi kabuğunu ve bilgi engelini kırın. Web sitemizde birçok rastgele kitap seçeneği keşfedin. Çeşitli türler, yazarlar ve konuları keşfedin. Bir sonraki büyüleyici okumanızı bulun ve edebiyat dünyasına dalın. Rastgele kitap yolculuğunuza başlamak için bugün web sitemizi ziyaret edin!",
     brand: "Random Books",
@@ -2118,7 +2119,7 @@ const LanDic = {
     language: "Ukrainian",
     native_language: "Українська",
     html_title:
-      "Випадкові книги | Веб-сайт з випадковими рекомендаціями книг. Місце для інформаційного кокону, пошуку прихованих скарбів та насолоди від читання",
+      "Випадкові книги | Веб-сайт випадкових рекомендацій книг. Місце для інформаційного кокону, пошуку прихованих скарбів та насолоди від читання",
     html_mata_description:
       "Розбийте інформаційний кокон та бар'єр знань за допомогою випадкових рекомендацій книг. Відкрийте для себе широкий вибір випадкових книг на нашому веб-сайті. Досліджуйте різні жанри, авторів та теми. Знайдіть свою наступну захоплюючу книгу та погрузніться у світ літератури. Відвідайте наш веб-сайт сьогодні, щоб розпочати свою випадкову книжкову подорож!",
     brand: "Random Books",
@@ -2168,7 +2169,7 @@ const LanDic = {
     language: "Vietnamese",
     native_language: "Tiếng Việt",
     html_title:
-      "Sách ngẫu nhiên | Trang web giới thiệu sách ngẫu nhiên. Nơi tìm kiếm những cuốn sách ẩn và thưởng thức việc đọc",
+      "Sách ngẫu nhiên | Trang web Giới thiệu Sách Ngẫu nhiên. Nơi tìm kiếm những cuốn sách ẩn và thưởng thức việc đọc",
     html_mata_description:
       "Phá vỡ vỏ bọc thông tin và rào cản tri thức bằng cách giới thiệu sách ngẫu nhiên. Khám phá một loạt các cuốn sách ngẫu nhiên trên trang web của chúng tôi. Khám phá các thể loại, tác giả và chủ đề khác nhau. Tìm cuốn sách hấp dẫn tiếp theo của bạn và đắm mình vào thế giới văn học. Hãy ghé thăm trang web của chúng tôi ngay hôm nay để bắt đầu hành trình sách ngẫu nhiên của bạn!",
     brand: "Random Books",
