@@ -48,14 +48,12 @@ export async function POST(request) {
   console.log(noEncodedwords);
   const randomWords = encodeURI(noEncodedwords);
   const publicUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40${
-    strictMode ? "&filter=ebooks" : ""
-  }${strictMode ? "&printType=books" : ""}`;
+    strictMode ? "&printType=books" : ""
+  }`;
   console.log(publicUrl);
   const apiKeyUrl = `https://www.googleapis.com/books/v1/volumes?q=${randomWords}&langRestrict=${locale}&maxResults=40${
-    strictMode ? "&filter=ebooks" : ""
-  }${strictMode ? "&printType=books" : ""}&key=${
-    process.env.GOOGLE_BOOKS_API_KEY
-  }`;
+    strictMode ? "&printType=books" : ""
+  }&key=${process.env.GOOGLE_BOOKS_API_KEY}`;
   console.log(apiKeyUrl);
   // Make API call to external API
   let result = {};
