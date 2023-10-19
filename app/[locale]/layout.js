@@ -113,6 +113,7 @@ export default function LocaleLayout({ children, params: { locale } }) {
         />
         <meta property="og:image" content="https://i.ibb.co/RcNWYp3/icon.gif" />
         <link rel="shortcut icon" href="flogo.gif" />
+        <link rel="icon" href="public/favicon_io/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
 

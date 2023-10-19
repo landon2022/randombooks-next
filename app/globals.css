@@ -104,6 +104,16 @@ img:hover {
   border-radius: 10px;
   box-shadow: 0 0 0.25em rgba(67, 71, 85, 0.27), 0 0.25em 1em rgb(90 125 188/5%);
 }
+.start-section {
+  padding-bottom: 1%;
+}
+.form-check {
+  /* padding: 0 auto; */
+  margin-left: 2px;
+}
+/* .info-square {
+  padding: 0 auto;
+} */
 
 @media screen and (max-width: 900px) {
   .action-zone {
@@ -208,13 +218,13 @@ img:hover {
   width: 20% !important;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   ::-webkit-scrollbar {
     width: 3px;
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 900px) {
   ::-webkit-scrollbar {
     width: 12px;
   }

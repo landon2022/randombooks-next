@@ -229,11 +229,11 @@ export default function StartSection() {
             value="wildCheckbox"
             onClick={(e) => setStrict(e.target.checked)}
           />
-          <label className="form-check-label ms-0" htmlFor="wildCheckbox">
+          <label className="form-check-label" htmlFor="wildCheckbox">
             Strict Mode
           </label>
           <i
-            className="bi bi-info-square ms-1 me-1 "
+            className="bi bi-info-square ms-1 me-1 info-square "
             data-bs-toggle="tooltip"
             data-bs-placement="bottom"
             data-bs-title="Only Books"
@@ -259,7 +259,7 @@ export default function StartSection() {
           <br />
           <br />
           <div className="content-details row">
-            <div className="book-cover col-lg-6 ">
+            <div className="book-cover col-md-6 ">
               <img
                 className="book-cover-img"
                 src={
@@ -271,7 +271,7 @@ export default function StartSection() {
               />
             </div>
 
-            <div className="book-detail col-lg-6">
+            <div className="book-detail col-md-6">
               <h4>{LanDic[locale].book_description}:</h4>
 
               <div>
