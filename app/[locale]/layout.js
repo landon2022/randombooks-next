@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import { notFound } from "next/navigation";
 import LanDic from "./LanDic";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
 
 export async function generateMetadata({ params: { locale } }) {
   return {
@@ -131,6 +132,7 @@ export default function LocaleLayout({ children, params: { locale } }) {
       <body>
         <Header />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
