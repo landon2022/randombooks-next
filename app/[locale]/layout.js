@@ -71,16 +71,16 @@ export default function LocaleLayout({ children, params: { locale } }) {
   return (
     <html lang={locale}>
       <head>
-        {/* <!-- Google tag (gtag.js) --> */}
+        {/* <!-- Google tag (gtag.js) -->
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-7XYN0L7J3P"
         ></script>
         <script>
           window.dataLayer = window.dataLayer || []; function gtag(){" "}
-          {dataLayer.push(arguments)}
+          {dataLayer.push(arguments);}
           gtag('js', new Date()); gtag('config', 'G-7XYN0L7J3P');
-        </script>
+        </script> */}
         {locales.map((locale) => {
           if (locale === "en") {
             return (
@@ -102,12 +102,12 @@ export default function LocaleLayout({ children, params: { locale } }) {
             );
           }
         })}
-        {/* <Script
+        <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_KEY}`}
         />
         <Script>{`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());gtag('config', '${process.env.GA_KEY}');`}</Script>
-        <Script
+        {/* <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5689225684612617"
           crossOrigin="anonymous"
