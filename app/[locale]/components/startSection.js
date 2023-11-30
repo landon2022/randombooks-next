@@ -31,7 +31,7 @@ export default function StartSection() {
     const tooltipList = [...tooltipTriggerList].map(
       (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
     );
-    handleBookRequest(LanDic[locale].language);
+    // handleBookRequest(LanDic[locale].language);
   }, [LanDic[locale].language]);
 
   useEffect(() => {

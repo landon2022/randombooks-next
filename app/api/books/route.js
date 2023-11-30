@@ -92,10 +92,10 @@ export async function POST(request) {
     }
     if (result.items !== undefined) {
       try {
-        await client
-          .db("randombooks")
-          .collection(language)
-          .insertMany(result.items);
+        // await client
+        //   .db("randombooks")
+        //   .collection(language)
+        //   .insertMany(result.items);
         return NextResponse.json(result);
       } catch (error) {
         return NextResponse.json(result);
