@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
   /* color: grey; */
   font-weight: 700;
 }
@@ -179,7 +179,15 @@ img:hover {
   overflow: auto;
   overflow-x: hidden;
 }
-
+.promotion {
+  box-shadow: 0 0 0.25em rgba(67, 71, 85, 0.27), 0 0.25em 1em rgb(90 125 188/5%);
+  border-radius: 5px;
+  text-align: left;
+  margin: 1% 0;
+  padding: 2% 2%;
+  overflow: auto;
+  overflow-x: hidden;
+}
 .book-cover {
   padding: 0% 1%;
   display: flex;

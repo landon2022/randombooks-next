@@ -28,8 +28,30 @@ export default function Index() {
               ></p>
 
               <StartSection />
+              <div className="promotion">
+                {" "}
+                <p>
+                  Ad: Two books that helped a lot in waking me up and I hope
+                  they can help you the same; one is for critical thinking{" "}
+                  <br /> -{" "}
+                  <a href="https://amzn.to/3xdwpfO" target="_blank">
+                    Asking the Right Questions
+                  </a>
+                  ; <br />
+                  another is for reading fast and efficient <br /> -{" "}
+                  <a href="https://amzn.to/43CnCAn" target="_blank">
+                    How to Read a Book
+                  </a>
+                  .
+                </p>
+                <p>
+                  As an Amazon Associate I earn from qualifying purchases. But
+                  only do it when you think it is helpful.
+                </p>
+              </div>
             </div>
             <br />
+
             <div
               className="explanation"
               dangerouslySetInnerHTML={{
