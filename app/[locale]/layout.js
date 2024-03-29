@@ -98,6 +98,10 @@ export default function LocaleLayout({ children, params: { locale } }) {
           src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GA_KEY}`}
         />
         <Script>{`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);};gtag('js', new Date());gtag('config', '${process.env.GA_KEY}');`}</Script>
+        <meta
+          name="google-adsense-account"
+          content="ca-pub-5689225684612617"
+        ></meta>
         <meta charSet="utf-8" />
         <meta name="twitter:card" content="summary"></meta>
         <meta
