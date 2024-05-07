@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  font-style: italic;
+  /* font-style: italic; */
   text-decoration: none;
   color: black;
   font-weight: 700;
