@@ -75,6 +75,30 @@ export default function Layout() {
                   {LanDic[locale].home}
                 </Link>
               </li>
+              {/* <li className="nav-item">
+                <Link
+                  href="/library"
+                  className="nav-link"
+                  onClick={(e) => {
+                    // setCurrentPath("about");
+                    setActive(e);
+                  }}
+                >
+                  Library
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  href="/bookshelf"
+                  className="nav-link"
+                  onClick={(e) => {
+                    // setCurrentPath("about");
+                    setActive(e);
+                  }}
+                >
+                  Bookshelf
+                </Link>
+              </li> */}
               <li className="nav-item">
                 <Link
                   href="/faqs"

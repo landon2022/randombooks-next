@@ -40,9 +40,7 @@ export default function Index() {
                 <a href="https://amzn.to/3xocGdu" target="_blank">
                   How to Read a Book
                 </a>
-                . <br />
-                As an Amazon Associate I earn from qualifying purchases. But
-                only do it when you think it is helpful.
+                .
               </p>
             </div>
             <br />

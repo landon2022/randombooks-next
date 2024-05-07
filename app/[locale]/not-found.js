@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "public/styles/404.module.css";
+
 export default function NotFound() {
   return (
     <>

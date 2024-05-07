@@ -155,7 +155,8 @@ export default function Footer() {
           <div className="copyright ">
             <p>
               {LanDic[locale].copyright} © {year} {LanDic[locale].brand},{" "}
-              {LanDic[locale].reserve_right}.
+              {LanDic[locale].reserve_right}. As an Amazon Associate Random
+              Books earns from qualifying purchases.
             </p>
           </div>
         </footer>

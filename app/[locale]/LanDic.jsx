@@ -564,7 +564,7 @@ const LanDic = {
     contact: "Contact Us",
     about: "About Us",
     subscribe_h5: "Subscribe for Updates",
-    subscribe_p: "More random recommendations are coming...",
+    subscribe_p: "More features are coming...",
     subscribe_button: "Subscribe",
     navigation: "Navigation",
     copyright: "Copyright",
