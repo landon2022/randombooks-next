@@ -30,15 +30,25 @@ export default function Index() {
               <StartSection />
 
               <p className="promotion">
-                Ad: Two books that helped a lot in waking me up and I hope they
-                can help you the same; one is for critical thinking <br /> -{" "}
+                Two books that helped a lot in waking me up and I hope they can
+                help you the same; one is for critical thinking <br /> -{" "}
                 <a href="https://amzn.to/4aI2iLQ" target="_blank">
-                  Asking the Right Questions
-                </a>
+                  Asking the Right Questions{" "}
+                  <img
+                    src="https://assets-global.website-files.com/61cb87c1189790ed10f7936d/61cb87c11897908692f79605_btn-amazon.svg"
+                    alt="Amazon button"
+                    className="aff-image"
+                  />
+                </a>{" "}
                 ; <br />
                 another is for reading fast and efficient <br /> -{" "}
                 <a href="https://amzn.to/3xocGdu" target="_blank">
-                  How to Read a Book
+                  How to Read a Book{" "}
+                  <img
+                    src="https://assets-global.website-files.com/61cb87c1189790ed10f7936d/61cb87c11897908692f79605_btn-amazon.svg"
+                    alt="Amazon button"
+                    className="aff-image"
+                  />
                 </a>
                 .
               </p>

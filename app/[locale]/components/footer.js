@@ -155,8 +155,10 @@ export default function Footer() {
           <div className="copyright ">
             <p>
               {LanDic[locale].copyright} © {year} {LanDic[locale].brand},{" "}
-              {LanDic[locale].reserve_right}. As an Amazon Associate Random
-              Books earns from qualifying purchases.
+              {LanDic[locale].reserve_right}. Random Books is an Amazon
+              Associate, which is an affiliate marketing program that enables
+              websites to earn commissions by promoting and linking to products
+              on Amazon.com.
             </p>
           </div>
         </footer>

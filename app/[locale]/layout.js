@@ -106,7 +106,7 @@ export default function LocaleLayout({ children, params: { locale } }) {
         <meta name="twitter:card" content="summary"></meta>
         <meta
           property="og:title"
-          content="Random Books | Random Book Recommendation. A place to the information cocoon, find hidden gem and enjoy reading"
+          content="Random Books | Random Book Recommendation. A place to break the information cocoon, find hidden gem and enjoy reading"
         />
         <meta
           property="og:description"
